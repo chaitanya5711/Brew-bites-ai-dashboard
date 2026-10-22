@@ -1,4 +1,4 @@
-"""Brew & Bites Café — AI-Powered Sales Analytics Dashboard
+"""Adi's Café — AI-Powered Sales Analytics Dashboard
 Project by Chaitanya Jadhav
 Run:  streamlit run app.py
 """
@@ -16,7 +16,7 @@ import streamlit as st
 import cafe_analytics as A
 
 # ================================================================ settings
-CAFE = "Brew & Bites Café"
+CAFE = "Adi's Café"
 CITY = "Kolhapur"
 TAGLINE = "Every cutting chai and vada pav tells a story. This dashboard reads it — sales, menu, customers and what to do next."
 AUTHOR = "Chaitanya Jadhav"
@@ -838,7 +838,7 @@ def page_chat():
     if len(st.session_state.chat) > 1:
         c1, c2 = st.columns(2)
         c1.download_button("⬇️ Download chat", "\n\n".join(f"{r.upper()}: {m}" for r, m in st.session_state.chat),
-                           "brew_bites_chat.txt", use_container_width=True)
+                           "adis_cafe_chat.txt", use_container_width=True)
         if c2.button("🗑️ Clear chat", use_container_width=True):
             del st.session_state["chat"]
             st.rerun()
@@ -866,8 +866,8 @@ profit of <b>{rupee(k['profit'])}</b> before rent and salaries.</div>""", unsafe
                   f"Profit: {rupee(k['profit'])} | Bills: {k['bills']} | Avg bill: {rupee(k['avg_bill'])}\n\n"
                   "KEY FINDINGS\n" + "\n".join("- " + s.replace("**", "") for s in insights))
         c1, c2 = st.columns(2)
-        c1.download_button("⬇️ Download report (TXT)", report, "brew_bites_report.txt", use_container_width=True)
-        c2.download_button("⬇️ Download data (CSV)", df.to_csv(index=False), "brew_bites_data.csv",
+        c1.download_button("⬇️ Download report (TXT)", report, "adis_cafe_report.txt", use_container_width=True)
+        c2.download_button("⬇️ Download data (CSV)", df.to_csv(index=False), "adis_cafe_data.csv",
                            use_container_width=True)
     with t2:
         st.markdown(f"""
@@ -1024,7 +1024,7 @@ def page_data():
             st.cache_data.clear()
             st.session_state.flash = "Reset to the original data."
             st.rerun()
-        c3.download_button("⬇️ Download all saved data", MASTER.read_bytes(), "brew_bites_all_sales.csv",
+        c3.download_button("⬇️ Download all saved data", MASTER.read_bytes(), "adis_cafe_all_sales.csv",
                            use_container_width=True)
         st.caption(f"Data is saved in the app's data folder; a backup is kept before every change "
                    f"({len(backups)} backup(s) now).")
@@ -1035,7 +1035,7 @@ def page_data():
 
 | Column | Example | Meaning |
 |---|---|---|
-| `invoice_no` | BB/26-27/02001 | Bill number (same for all items on one bill) |
+| `invoice_no` | AC/26-27/02001 | Bill number (same for all items on one bill) |
 | `order_datetime` | 01-10-2026 08:15 | Date and time of the bill (DD-MM-YYYY) |
 | `order_type` | Dine-in / Takeaway / Swiggy / Zomato | How the order came |
 | `item` | Masala Chai | Item name |
@@ -1049,7 +1049,7 @@ def page_data():
 standardised · unreadable dates removed · refunds separated · impossible quantities fixed · blank payments filled ·
 costs looked up from the menu · GST, totals and profit recalculated.
 """)
-        st.download_button("⬇️ Download blank template (CSV)", A.template_csv(), "brew_bites_upload_template.csv")
+        st.download_button("⬇️ Download blank template (CSV)", A.template_csv(), "adis_cafe_upload_template.csv")
 
 
 # ================================================================ router

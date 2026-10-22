@@ -1,0 +1,19 @@
+# environment & caches
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# secrets (API keys) — never commit
+.streamlit/secrets.toml
+.env
+
+# local runtime data (uploads, backups) — the app rebuilds it from cafe_clean.csv
+data/
+
+# old local backups & scratch files
+*_backup_*.py
+Config
+Untitled-*.ipynb
+README 2.md
