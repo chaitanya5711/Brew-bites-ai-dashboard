@@ -311,6 +311,16 @@ def insight_box(text):
     st.markdown(f"<div class='insight'>{text.replace('**', '')}</div>", unsafe_allow_html=True)
 
 
+def _server_api_key():
+    """Gemini key from Streamlit Secrets (cloud) or the GEMINI_API_KEY environment variable (local)."""
+    try:
+        if "GEMINI_API_KEY" in st.secrets:
+            return str(st.secrets["GEMINI_API_KEY"])
+    except Exception:          # no secrets file when running locally
+        pass
+    return os.getenv("GEMINI_API_KEY", "")
+
+
 # ================================================================ sidebar
 if "page" not in st.session_state:
     st.session_state.page = "🏠 Home"
@@ -348,8 +358,10 @@ with st.sidebar:
         hours = st.slider("Hours of day", 9, 22, (9, 22))
     with st.expander("⚙️ Settings"):
         target = st.number_input("Monthly revenue target (₹)", 10000, 1000000, 120000, step=5000)
-        api_key = st.text_input("Gemini API key", type="password", value=os.getenv("GEMINI_API_KEY", ""),
-                                help="Free key at aistudio.google.com. Without it, the bot answers basic questions.")
+        # The owner's key stays on the server (Streamlit Secrets / env var) and is never sent to the browser.
+        user_key = st.text_input("Gemini API key (optional)", type="password", value="",
+                                 help="Only needed if the app owner hasn't set one. Free key at aistudio.google.com.")
+        api_key = user_key or _server_api_key()
         model_name = st.text_input("Gemini model", "gemini-2.5-flash")
     st.markdown("---")
     st.markdown(f"<small>👨‍💻 Built by <b>{AUTHOR}</b><br>"
@@ -808,8 +820,8 @@ def page_tools():
 
 def page_chat():
     if not api_key:
-        st.info("Add a free Gemini API key under ⚙️ Settings for full AI answers. "
-                "Without it, the assistant answers basic questions.")
+        st.info("Full AI answers are switched off (no Gemini API key set), so the assistant answers basic "
+                "questions only.")
     if "chat" not in st.session_state:
         st.session_state.chat = [("assistant", f"Namaste! 👋 I'm the {CAFE} assistant, built by {AUTHOR}. "
                                                "Ask me about sales, items, customers, offers or forecasts.")]
