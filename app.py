@@ -101,6 +101,8 @@ h1,h2,h3,h4{font-family:var(--display)!important;font-weight:400!important;color
   font-variant-numeric:tabular-nums lining-nums}
 .kpi .dl{font-size:.8rem;margin-top:2px}
 .up{color:var(--good)}.down{color:var(--bad)}.flat{opacity:.4}
+.kpi .val{white-space:nowrap;font-size:clamp(1.25rem,2.1vw,1.9rem)!important}
+.kpi .lbl{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 
 /* ---------- navigation list ---------- */
 .nav-card{padding:18px 0 8px;border-top:1px solid var(--line);transition:border-color .2s}
@@ -217,8 +219,23 @@ BACKUPS = DATA_DIR / "backups"
 LOG = DATA_DIR / "upload_log.csv"
 ORIGINAL = APP_DIR / "cafe_clean.csv"
 BACKUPS.mkdir(parents=True, exist_ok=True)
-if not MASTER.exists():
+SOURCE_STAMP = DATA_DIR / "source_version.txt"
+
+
+def _original_version():
+    import hashlib
+    return hashlib.md5(ORIGINAL.read_bytes()).hexdigest()
+
+
+# Start from cafe_clean.csv the first time, and again whenever cafe_clean.csv itself is updated
+# (e.g. a new version pushed to GitHub), so the dashboard never keeps showing stale data.
+if not MASTER.exists() or not SOURCE_STAMP.exists() or SOURCE_STAMP.read_text().strip() != _original_version():
+    if MASTER.exists():
+        shutil.copy(MASTER, BACKUPS / f"master_before_refresh_{datetime.now():%Y%m%d_%H%M%S}.csv")
     shutil.copy(ORIGINAL, MASTER)
+    if LOG.exists():
+        LOG.rename(BACKUPS / f"upload_log_before_refresh_{datetime.now():%Y%m%d_%H%M%S}.csv")
+    SOURCE_STAMP.write_text(_original_version())
 
 
 @st.cache_data
