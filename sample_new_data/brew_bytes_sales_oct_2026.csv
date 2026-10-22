@@ -1,0 +1,638 @@
+invoice_no,order_datetime,order_type,payment_method,item,category,quantity,unit_price,unit_cost,discount_pct,customer_id,cashier,customer_rating,gst_5pct,line_total
+BB/26-27/01302,01-10-2026 09:17,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,CUST0111,Rohit,,7.5,157.5
+BB/26-27/01305,01-10-2026 16:47,Swiggy,Online (App),Oreo Shake,Shakes,1,200,60,0,,Sneha,5,10.0,210.0
+BB/26-27/01305,01-10-2026 16:47,Swiggy,Online (App),Paneer Wrap,Sandwiches & Wraps,1,210,75,0,,Sneha,5,10.5,220.5
+BB/26-27/01304,01-10-2026 17:47,Takeaway,UPI,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,CUST0135,Sneha,,9.5,199.5
+BB/26-27/01304,01-10-2026 17:47,Takeaway,UPI,Classic Veg Burger,Snacks,1,160,55,0,CUST0135,Sneha,,8.0,168.0
+BB/26-27/01304,01-10-2026 17:47,Takeaway,UPI,Lemon Iced Tea,Tea & Mocktails,1,140,30,0,CUST0135,Sneha,,7.0,147.0
+BB/26-27/01301,01-10-2026 18:05,Zomato,Online (App),Loaded Nachos,Snacks,1,210,65,5,,Sneha,4,9.98,209.48
+BB/26-27/01301,01-10-2026 18:05,Zomato,Online (App),Farmhouse Pizza,Pizza & Pasta,1,340,120,5,,Sneha,4,16.15,339.15
+BB/26-27/01301,01-10-2026 18:05,Zomato,Online (App),Peri Peri Fries,Snacks,1,140,38,5,,Sneha,4,6.65,139.65
+BB/26-27/01301,01-10-2026 18:05,Zomato,Online (App),Paneer Tikka Pizza,Pizza & Pasta,1,360,130,5,,Sneha,4,17.1,359.1
+BB/26-27/01306,01-10-2026 19:00,Dine-in,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Sneha,,17.0,357.0
+BB/26-27/01306,01-10-2026 19:00,Dine-in,UPI,Choco Lava Cake,Desserts,1,170,50,0,,Sneha,,8.5,178.5
+BB/26-27/01303,01-10-2026 20:57,Takeaway,UPI,Peri Peri Fries,Snacks,1,140,38,0,,Sneha,,7.0,147.0
+BB/26-27/01303,01-10-2026 20:57,Takeaway,UPI,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,,Sneha,,9.5,199.5
+BB/26-27/01303,01-10-2026 20:57,Takeaway,UPI,Red Sauce Pasta,Pizza & Pasta,1,240,78,0,,Sneha,,12.0,252.0
+BB/26-27/01303,01-10-2026 20:57,Takeaway,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,,Sneha,,8.0,168.0
+BB/26-27/01307,01-10-2026 21:16,Dine-in,UPI,Classic Veg Burger,Snacks,1,160,55,0,CUST0182,Sneha,,8.0,168.0
+BB/26-27/01307,01-10-2026 21:16,Dine-in,UPI,Café Latte,Coffee,1,170,45,0,CUST0182,Sneha,,8.5,178.5
+BB/26-27/01319,03-10-2026 12:51,Zomato,Online (App),Peri Peri Fries,Snacks,1,140,38,5,,Amit,4,6.65,139.65
+BB/26-27/01313,03-10-2026 14:22,Dine-in,UPI,Café Latte,Coffee,1,170,45,0,,Amit,,8.5,178.5
+BB/26-27/01313,03-10-2026 14:22,Dine-in,UPI,Masala Chai,Tea & Mocktails,1,60,14,0,,Amit,,3.0,63.0
+BB/26-27/01310,03-10-2026 14:24,Takeaway,UPI,Americano,Coffee,1,140,32,0,CUST0162,Amit,,7.0,147.0
+BB/26-27/01322,03-10-2026 14:33,Takeaway,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Rohit,,17.0,357.0
+BB/26-27/01322,03-10-2026 14:33,Takeaway,UPI,Chocolate Brownie,Desserts,1,150,45,0,,Rohit,,7.5,157.5
+BB/26-27/01315,03-10-2026 15:02,Zomato,Online (App),Cold Coffee,Coffee,2,180,50,5,,Rohit,3,17.1,359.1
+BB/26-27/01323,03-10-2026 17:18,Dine-in,UPI,Cold Coffee,Coffee,2,180,50,0,,Amit,,18.0,378.0
+BB/26-27/01323,03-10-2026 17:18,Dine-in,UPI,Café Latte,Coffee,3,170,45,0,,Amit,,25.5,535.5
+BB/26-27/01323,03-10-2026 17:18,Dine-in,UPI,Red Sauce Pasta,Pizza & Pasta,1,240,78,0,,Amit,,12.0,252.0
+BB/26-27/01323,03-10-2026 17:18,Dine-in,UPI,Cheesy Garlic Bread,Snacks,3,160,45,0,,Amit,,24.0,504.0
+BB/26-27/01309,03-10-2026 18:08,Swiggy,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,0,,Amit,,8.0,168.0
+BB/26-27/01318,03-10-2026 18:16,Takeaway,UPI,Cold Coffee,Coffee,1,180,50,0,,Amit,,9.0,189.0
+BB/26-27/01318,03-10-2026 18:16,Takeaway,UPI,Lemon Iced Tea,Tea & Mocktails,1,140,30,0,,Amit,,7.0,147.0
+BB/26-27/01318,03-10-2026 18:16,Takeaway,UPI,Oreo Shake,Shakes,1,200,60,0,,Amit,,10.0,210.0
+BB/26-27/01318,03-10-2026 18:16,Takeaway,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Amit,,17.0,357.0
+BB/26-27/01314,03-10-2026 18:57,Dine-in,Cash,Cold Coffee,Coffee,1,180,50,0,,Sneha,,9.0,189.0
+BB/26-27/01314,03-10-2026 18:57,Dine-in,Cash,Margherita Pizza,Pizza & Pasta,1,280,95,0,,Sneha,,14.0,294.0
+BB/26-27/01311,03-10-2026 18:59,Dine-in,UPI,Café Latte,Coffee,1,170,45,0,,Sneha,,8.5,178.5
+BB/26-27/01311,03-10-2026 18:59,Dine-in,UPI,Cheesy Garlic Bread,Snacks,2,160,45,0,,Sneha,,16.0,336.0
+BB/26-27/01312,03-10-2026 19:52,Swiggy,Online (App),Lemon Iced Tea,Tea & Mocktails,1,140,30,5,,Sneha,,6.65,139.65
+BB/26-27/01312,03-10-2026 19:52,Swiggy,Online (App),Loaded Nachos,Snacks,1,210,65,5,,Sneha,,9.98,209.48
+BB/26-27/01312,03-10-2026 19:52,Swiggy,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,5,,Sneha,,13.3,279.3
+BB/26-27/01308,03-10-2026 21:01,Swiggy,Online (App),Loaded Nachos,Snacks,2,210,65,5,,Sneha,,19.95,418.95
+BB/26-27/01308,03-10-2026 21:01,Swiggy,Online (App),Peri Peri Fries,Snacks,1,140,38,5,,Sneha,,6.65,139.65
+BB/26-27/01316,03-10-2026 21:02,Dine-in,Cash,Paneer Tikka Pizza,Pizza & Pasta,2,360,130,0,CUST0221,Sneha,,36.0,756.0
+BB/26-27/01320,03-10-2026 21:53,Takeaway,UPI,Classic Veg Burger,Snacks,1,160,55,0,,Sneha,,8.0,168.0
+BB/26-27/01320,03-10-2026 21:53,Takeaway,UPI,Cheesy Garlic Bread,Snacks,1,160,45,0,,Sneha,,8.0,168.0
+BB/26-27/01321,03-10-2026 22:09,Zomato,Online (App),Masala Chai,Tea & Mocktails,1,60,14,0,,Sneha,,3.0,63.0
+BB/26-27/01317,03-10-2026 22:43,Takeaway,Cash,Cheesy Garlic Bread,Snacks,1,160,45,0,CUST0076,Sneha,,8.0,168.0
+BB/26-27/01332,04-10-2026 10:44,Dine-in,UPI,Iced Latte,Coffee,1,190,52,0,CUST0148,Rohit,,9.5,199.5
+BB/26-27/01332,04-10-2026 10:44,Dine-in,UPI,Chocolate Shake,Shakes,1,190,58,0,CUST0148,Rohit,,9.5,199.5
+BB/26-27/01329,04-10-2026 15:57,Dine-in,Cash,Paneer Wrap,Sandwiches & Wraps,2,210,75,0,,Amit,,21.0,441.0
+BB/26-27/01329,04-10-2026 15:57,Dine-in,Cash,White Sauce Pasta,Pizza & Pasta,1,260,85,0,,Amit,,13.0,273.0
+BB/26-27/01328,04-10-2026 16:06,Dine-in,UPI,Classic Veg Burger,Snacks,1,160,55,0,CUST0149,Amit,,8.0,168.0
+BB/26-27/01328,04-10-2026 16:06,Dine-in,UPI,White Sauce Pasta,Pizza & Pasta,2,260,85,0,CUST0149,Amit,,26.0,546.0
+BB/26-27/01328,04-10-2026 16:06,Dine-in,UPI,Cold Coffee,Coffee,2,180,50,0,CUST0149,Amit,,18.0,378.0
+BB/26-27/01327,04-10-2026 17:03,Dine-in,UPI,Margherita Pizza,Pizza & Pasta,1,280,95,0,,Amit,,14.0,294.0
+BB/26-27/01327,04-10-2026 17:03,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,,Amit,,8.0,168.0
+BB/26-27/01327,04-10-2026 17:03,Dine-in,UPI,Espresso,Coffee,1,120,30,0,,Amit,,6.0,126.0
+BB/26-27/01331,04-10-2026 18:14,Dine-in,UPI,Cold Coffee,Coffee,1,180,50,0,,Amit,,9.0,189.0
+BB/26-27/01325,04-10-2026 19:06,Takeaway,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,CUST0245,Amit,,8.0,168.0
+BB/26-27/01333,04-10-2026 19:23,Dine-in,Cash,Hot Chocolate,Coffee,2,180,55,0,CUST0122,Amit,,18.0,378.0
+BB/26-27/01326,04-10-2026 19:25,Zomato,Online (App),Margherita Pizza,Pizza & Pasta,2,280,95,0,,Amit,,28.0,588.0
+BB/26-27/01326,04-10-2026 19:25,Zomato,Online (App),Blueberry Cheesecake,Desserts,1,240,85,0,,Amit,,12.0,252.0
+BB/26-27/01326,04-10-2026 19:25,Zomato,Online (App),Peri Peri Fries,Snacks,1,140,38,0,,Amit,,7.0,147.0
+BB/26-27/01330,04-10-2026 19:42,Swiggy,Online (App),Paneer Tikka Pizza,Pizza & Pasta,2,360,130,0,,Sneha,,36.0,756.0
+BB/26-27/01330,04-10-2026 19:42,Swiggy,Online (App),Classic Veg Burger,Snacks,1,160,55,0,,Sneha,,8.0,168.0
+BB/26-27/01324,04-10-2026 20:04,Takeaway,UPI,Americano,Coffee,2,140,32,0,,Amit,,14.0,294.0
+BB/26-27/01324,04-10-2026 20:04,Takeaway,UPI,White Sauce Pasta,Pizza & Pasta,3,260,85,0,,Amit,,39.0,819.0
+BB/26-27/01334,05-10-2026 09:56,Dine-in,UPI,Masala Chai,Tea & Mocktails,2,60,14,0,CUST0091,Rohit,,6.0,126.0
+BB/26-27/01339,05-10-2026 13:55,Dine-in,UPI,White Sauce Pasta,Pizza & Pasta,1,260,85,0,CUST0066,Rohit,,13.0,273.0
+BB/26-27/01339,05-10-2026 13:55,Dine-in,UPI,Classic Veg Burger,Snacks,1,160,55,0,CUST0066,Rohit,,8.0,168.0
+BB/26-27/01339,05-10-2026 13:55,Dine-in,UPI,Cappuccino,Coffee,1,160,42,0,CUST0066,Rohit,,8.0,168.0
+BB/26-27/01339,05-10-2026 13:55,Dine-in,UPI,Choco Lava Cake,Desserts,1,170,50,0,CUST0066,Rohit,,8.5,178.5
+BB/26-27/01337,05-10-2026 14:40,Dine-in,Cash,White Sauce Pasta,Pizza & Pasta,1,260,85,0,,Rohit,,13.0,273.0
+BB/26-27/01338,05-10-2026 15:43,Dine-in,Cash,cappuccino ,Coffee,1,160,42,0,CUST0132,Rohit,,8.0,168.0
+BB/26-27/01338,05-10-2026 15:43,Dine-in,Cash,Paneer Wrap,Sandwiches & Wraps,2,210,75,0,CUST0132,Rohit,,21.0,441.0
+BB/26-27/01336,05-10-2026 18:09,Takeaway,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,CUST0025,Sneha,,7.5,157.5
+BB/26-27/01335,05-10-2026 18:34,Swiggy,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,0,,Sneha,,8.0,168.0
+BB/26-27/01335,05-10-2026 18:34,Swiggy,Online (App),Paneer Wrap,Sandwiches & Wraps,2,210,75,0,,Sneha,,21.0,441.0
+BB/26-27/01341,06-10-2026 11:32,Swiggy,Online (App),Cappuccino,Coffee,1,160,42,10,,Rohit,,7.2,151.2
+BB/26-27/01343,06-10-2026 15:52,Takeaway,UPI,Masala Chai,Tea & Mocktails,1,60,14,10,CUST0282,Rohit,,2.7,56.7
+BB/26-27/01343,06-10-2026 15:52,Takeaway,UPI,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,10,CUST0282,Rohit,,16.2,340.2
+BB/26-27/01343,06-10-2026 15:52,Takeaway,UPI,Red Sauce Pasta,Pizza & Pasta,1,240,78,10,CUST0282,Rohit,,10.8,226.8
+BB/26-27/01347,06-10-2026 16:18,Zomato,Online (App),Classic Veg Burger,Snacks,1,160,55,10,,Sneha,,7.2,151.2
+BB/26-27/01344,06-10-2026 17:24,Dine-in,Card,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,10,,Sneha,,6.75,141.75
+BB/26-27/01340,06-10-2026 18:13,Zomato,Online (App),Lemon Iced Tea,Tea & Mocktails,1,140,30,10,,Sneha,,6.3,132.3
+BB/26-27/01345,06-10-2026 18:32,Swiggy,Online (App),Paneer Tikka Pizza,Pizza & Pasta,1,360,130,10,,Sneha,4,16.2,340.2
+BB/26-27/01345,06-10-2026 18:32,Swiggy,Online (App),Farmhouse Pizza,Pizza & Pasta,1,340,120,10,,Sneha,4,15.3,321.3
+BB/26-27/01346,06-10-2026 20:31,Dine-in,Card,Cappuccino,Coffee,1,160,42,10,CUST0043,Sneha,,7.2,151.2
+BB/26-27/01346,06-10-2026 20:31,Dine-in,Card,Lemon Iced Tea,Tea & Mocktails,1,140,30,10,CUST0043,Sneha,,6.3,132.3
+BB/26-27/01342,06-10-2026 21:53,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,10,,Sneha,,6.75,141.75
+BB/26-27/01350,07-10-2026 11:46,Dine-in,Cash,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,CUST0140,Rohit,,17.0,357.0
+BB/26-27/01350,07-10-2026 11:46,Dine-in,Cash,Veg Grilled Sandwich,Sandwiches & Wraps,2,150,50,0,CUST0140,Rohit,,15.0,315.0
+BB/26-27/01350,07-10-2026 11:46,Dine-in,Cash,Veg Grilled Sandwich,Sandwiches & Wraps,2,150,50,0,CUST0140,Rohit,,15.0,315.0
+BB/26-27/01353,07-10-2026 12:33,Takeaway,UPI,Classic Veg Burger,Snacks,1,160,55,0,CUST0180,Rohit,,8.0,168.0
+BB/26-27/01351,07-10-2026 14:35,Swiggy,Online (App),Paneer Tikka Sandwich,Sandwiches & Wraps,2,190,68,0,,Rohit,,19.0,399.0
+BB/26-27/01351,07-10-2026 14:35,Swiggy,Online (App),Blueberry Cheesecake,Desserts,1,240,85,0,,Rohit,,12.0,252.0
+BB/26-27/01355,07-10-2026 15:16,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,2,150,50,0,,Rohit,,15.0,315.0
+BB/26-27/01355,07-10-2026 15:16,Dine-in,UPI,Oreo Shake,Shakes,1,200,60,0,,Rohit,,10.0,210.0
+BB/26-27/01355,07-10-2026 15:16,Dine-in,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Rohit,,17.0,357.0
+BB/26-27/01357,07-10-2026 16:43,Dine-in,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Sneha,,17.0,357.0
+BB/26-27/01357,07-10-2026 16:43,Dine-in,UPI,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,,Sneha,,18.0,378.0
+BB/26-27/01357,07-10-2026 16:43,Dine-in,UPI,Chocolate Shake,Shakes,1,190,58,0,,Sneha,,9.5,199.5
+BB/26-27/01356,07-10-2026 18:55,Zomato,Online (App),Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,,Sneha,,18.0,378.0
+BB/26-27/01349,07-10-2026 20:06,Dine-in,Cash,Cold Coffee,Coffee,2,180,50,0,,Sneha,,18.0,378.0
+BB/26-27/01349,07-10-2026 20:06,Dine-in,Cash,Oreo Shake,Shakes,2,200,60,0,,Sneha,,20.0,420.0
+BB/26-27/01354,07-10-2026 20:42,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,0,CUST0077,Sneha,,7.0,147.0
+BB/26-27/01354,07-10-2026 20:42,Dine-in,UPI,Hot Chocolate,Coffee,1,180,55,0,CUST0077,Sneha,,9.0,189.0
+BB/26-27/01352,07-10-2026 21:14,Takeaway,UPI,Caramel Frappé,Coffee,1,230,70,0,,Sneha,,11.5,241.5
+BB/26-27/01348,07-10-2026 21:29,Swiggy,Online (App),Caramel Frappé,Coffee,1,230,70,5,,Sneha,4,10.92,229.42
+BB/26-27/01348,07-10-2026 21:29,Swiggy,Online (App),Choco Lava Cake,Desserts,1,170,50,5,,Sneha,4,8.08,169.58
+BB/26-27/01348,07-10-2026 21:29,Swiggy,Online (App),Farmhouse Pizza,Pizza & Pasta,1,340,120,5,,Sneha,4,16.15,339.15
+BB/26-27/01358,07-10-2026 22:47,Dine-in,UPI,White Sauce Pasta,Pizza & Pasta,2,260,85,0,,Sneha,,26.0,546.0
+BB/26-27/01358,07-10-2026 22:47,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,0,,Sneha,,7.0,147.0
+BB/26-27/01359,08-10-2026 13:04,Zomato,Online (App),Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Rohit,,17.0,357.0
+BB/26-27/01359,08-10-2026 13:04,Zomato,Online (App),Hazelnut Latte,Coffee,1,200,55,0,,Rohit,,10.0,210.0
+BB/26-27/01362,08-10-2026 13:57,Dine-in,Cash,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,,Rohit,,9.5,199.5
+BB/26-27/01362,08-10-2026 13:57,Dine-in,Cash,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Rohit,,17.0,357.0
+BB/26-27/01364,08-10-2026 19:04,Dine-in,UPI,Paneer Wrap,Sandwiches & Wraps,1,210,75,0,,Sneha,,10.5,220.5
+BB/26-27/01364,08-10-2026 19:04,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,,Sneha,,8.0,168.0
+BB/26-27/01364,08-10-2026 19:04,Dine-in,UPI,Masala Chai,Tea & Mocktails,1,60,14,0,,Sneha,,3.0,63.0
+BB/26-27/01364,08-10-2026 19:04,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,3,150,50,0,,Sneha,,22.5,472.5
+BB/26-27/01363,08-10-2026 21:03,Takeaway,Cash,Margherita Pizza,Pizza & Pasta,1,280,95,0,,Sneha,,14.0,294.0
+BB/26-27/01363,08-10-2026 21:03,Takeaway,Cash,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,,Sneha,,18.0,378.0
+BB/26-27/01360,08-10-2026 21:34,Dine-in,Card,Choco Lava Cake,Desserts,1,170,50,0,,Sneha,,8.5,178.5
+BB/26-27/01360,08-10-2026 21:34,Dine-in,Card,White Sauce Pasta,Pizza & Pasta,3,260,85,0,,Sneha,,39.0,819.0
+BB/26-27/01360,08-10-2026 21:34,Dine-in,Card,Classic Veg Burger,Snacks,1,160,55,0,,Sneha,,8.0,168.0
+BB/26-27/01360,08-10-2026 21:34,Dine-in,Card,Loaded Nachos,Snacks,1,210,65,0,,Sneha,,10.5,220.5
+BB/26-27/01361,08-10-2026 21:35,Dine-in,Card,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,CUST0122,Sneha,,17.0,357.0
+BB/26-27/01361,08-10-2026 21:35,Dine-in,Card,Peri Peri Fries,Snacks,1,140,38,0,CUST0122,Sneha,,7.0,147.0
+BB/26-27/01361,08-10-2026 21:35,Dine-in,Card,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,CUST0122,Sneha,,7.5,157.5
+BB/26-27/01365,09-10-2026 17:56,Takeaway,Cash,White Sauce Pasta,Pizza & Pasta,2,260,85,0,,Sneha,,26.0,546.0
+BB/26-27/01366,09-10-2026 22:47,Swiggy,Online (App),Chocolate Brownie,Desserts,1,150,45,0,,Sneha,4,7.5,157.5
+BB/26-27/01366,09-10-2026 22:47,Swiggy,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,0,,Sneha,4,14.0,294.0
+BB/26-27/01366,09-10-2026 22:47,Swiggy,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,0,,Sneha,4,8.0,168.0
+BB/26-27/01374,10-10-2026 12:44,Swiggy,Online (App),Cheesy Garlic Bread,Snacks,2,160,45,0,,Amit,5,16.0,336.0
+BB/26-27/01376,10-10-2026 16:23,Dine-in,UPI,White Sauce Pasta,Pizza & Pasta,1,260,85,0,CUST0280,Amit,,13.0,273.0
+BB/26-27/01376,10-10-2026 16:23,Dine-in,UPI,Classic Veg Burger,Snacks,3,160,55,0,CUST0280,Amit,,24.0,504.0
+BB/26-27/01372,10-10-2026 16:38,Dine-in,Card,Chocolate Shake,Shakes,1,190,58,0,CUST0257,Sneha,,9.5,199.5
+BB/26-27/01372,10-10-2026 16:38,Dine-in,Card,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,CUST0257,Sneha,,17.0,357.0
+BB/26-27/01372,10-10-2026 16:38,Dine-in,Card,Masala Chai,Tea & Mocktails,1,60,14,0,CUST0257,Sneha,,3.0,63.0
+BB/26-27/01373,10-10-2026 16:48,Swiggy,Online (App),Hot Chocolate,Coffee,1,180,55,0,,Sneha,3,9.0,189.0
+BB/26-27/01373,10-10-2026 16:48,Swiggy,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,2,150,50,0,,Sneha,3,15.0,315.0
+BB/26-27/01373,10-10-2026 16:48,Swiggy,Online (App),Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,,Sneha,3,18.0,378.0
+BB/26-27/01373,10-10-2026 16:48,Swiggy,Online (App),Virgin Mojito,Tea & Mocktails,1,160,35,0,,Sneha,3,8.0,-168.0
+BB/26-27/01375,10-10-2026 16:59,Dine-in,UPI,White Sauce Pasta,Pizza & Pasta,1,260,85,0,CUST0208,Sneha,,13.0,273.0
+BB/26-27/01368,10-10-2026 17:59,Swiggy,Online (App),Iced Latte,Coffee,2,190,52,5,,Sneha,2,18.05,379.05
+BB/26-27/01368,10-10-2026 17:59,Swiggy,Online (App),White Sauce Pasta,Pizza & Pasta,2,260,85,5,,Sneha,2,24.7,518.7
+BB/26-27/01369,10-10-2026 19:07,Zomato,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,0,,Amit,3,8.0,168.0
+BB/26-27/01369,10-10-2026 19:07,Zomato,Online (App),Chocolate Brownie,Desserts,2,150,45,0,,Amit,3,15.0,315.0
+BB/26-27/01367,10-10-2026 19:23,Dine-in,Cash,Margherita Pizza,Pizza & Pasta,2,280,95,0,,Sneha,,28.0,588.0
+BB/26-27/01367,10-10-2026 19:23,Dine-in,Cash,Café Latte,Coffee,1,170,45,0,,Sneha,,8.5,178.5
+BB/26-27/01370,10-10-2026 19:53,Takeaway,UPI,Peri Peri Fries,Snacks,1,140,38,0,,Sneha,,7.0,147.0
+BB/26-27/01371,10-10-2026 22:32,Swiggy,Online (App),Peri Peri Fries,Snacks,1,140,38,0,,Amit,,7.0,147.0
+BB/26-27/01371,10-10-2026 22:32,Swiggy,Online (App),Chocolate Shake,Shakes,1,190,58,0,,Amit,,9.5,199.5
+BB/26-27/01371,10-10-2026 22:32,Swiggy,,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Amit,,17.0,357.0
+BB/26-27/01378,11-10-2026 11:34,Dine-in,UPI,Classic Veg Burger,Snacks,1,160,55,0,,Amit,,8.0,168.0
+BB/26-27/01378,11-10-2026 11:34,Dine-in,UPI,Cappuccino,Coffee,1,160,42,0,,Amit,,8.0,168.0
+BB/26-27/01378,11-10-2026 11:34,Dine-in,UPI,Paneer Wrap,Sandwiches & Wraps,1,210,75,0,,Amit,,10.5,220.5
+BB/26-27/01384,11-10-2026 12:12,Dine-in,UPI,Masala Chai,Tea & Mocktails,1,60,14,0,,Rohit,,3.0,63.0
+BB/26-27/01384,11-10-2026 12:12,Dine-in,UPI,Paneer Tikka Sandwich,Sandwiches & Wraps,30,190,68,0,,Rohit,,9.5,5985.0
+BB/26-27/01384,11-10-2026 12:12,Dine-in,UPI,Hazelnut Latte,Coffee,2,200,55,0,,Rohit,,20.0,420.0
+BB/26-27/01384,11-10-2026 12:12,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,,Rohit,,8.0,168.0
+BB/26-27/01385,11-10-2026 13:06,Dine-in,UPI,Hot Chocolate,Coffee,1,180,55,0,,Rohit,,9.0,189.0
+BB/26-27/01381,11-10-2026 14:20,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,CUST0288,Rohit,,7.5,157.5
+BB/26-27/01381,11-10-2026 14:20,Dine-in,UPI,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,CUST0288,Rohit,,9.5,199.5
+BB/26-27/01381,11-10-2026 14:20,Dine-in,UPI,Iced Latte,Coffee,1,190,52,0,CUST0288,Rohit,,9.5,199.5
+BB/26-27/01377,11-10-2026 15:44,Zomato,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,5,,Rohit,,7.12,149.62
+BB/26-27/01377,11-10-2026 15:44,Zomato,Online (App),Paneer Wrap,Sandwiches & Wraps,1,210,75,5,,Rohit,,9.98,209.48
+BB/26-27/01377,11-10-2026 15:44,Zomato,Online (App),Loaded Nachos,Snacks,1,210,65,5,,Rohit,,9.98,209.48
+BB/26-27/01392,11-10-2026 16:03,Takeaway,UPI,White Sauce Pasta,Pizza & Pasta,1,260,85,0,CUST0119,Sneha,,13.0,273.0
+BB/26-27/01392,11-10-2026 16:03,Takeaway,UPI,Cappuccino,Coffee,1,160,42,0,CUST0119,Sneha,,8.0,168.0
+BB/26-27/01392,11-10-2026 16:03,Takeaway,UPI,Oreo Shake,Shakes,1,200,60,0,CUST0119,Sneha,,10.0,210.0
+BB/26-27/01392,11-10-2026 16:03,Takeaway,UPI,Peri Peri Fries,Snacks,2,140,38,0,CUST0119,Sneha,,14.0,294.0
+BB/26-27/01379,11-10-2026 16:09,Swiggy,Online (App),Lemon Iced Tea,Tea & Mocktails,1,140,30,0,,Sneha,5,7.0,147.0
+BB/26-27/01379,11-10-2026 16:09,Swiggy,Online (App),virgin mojito ,Tea & Mocktails,1,160,35,0,,Sneha,5,8.0,168.0
+BB/26-27/01379,11-10-2026 16:09,Swiggy,Online (App),Classic Veg Burger,Snacks,2,160,55,0,,Sneha,5,16.0,336.0
+BB/26-27/01390,11-10-2026 18:09,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,CUST0089,Sneha,,7.5,157.5
+BB/26-27/01390,11-10-2026 18:09,Dine-in,UPI,Paneer Tikka Pizza,Pizza & Pasta,3,360,130,0,CUST0089,Sneha,,54.0,1134.0
+BB/26-27/01390,11-10-2026 18:09,Dine-in,,Caramel Frappé,Coffee,1,230,70,0,CUST0089,Sneha,,11.5,241.5
+BB/26-27/01390,11-10-2026 18:09,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,0,CUST0089,Sneha,,7.0,147.0
+BB/26-27/01391,11-10-2026 18:45,Takeaway,Cash,Hazelnut Latte,Coffee,1,200,55,0,CUST0310,Sneha,,10.0,210.0
+BB/26-27/01391,11-10-2026 18:45,Takeaway,Cash,Cold Coffee,Coffee,1,180,50,0,CUST0310,Sneha,,9.0,189.0
+BB/26-27/01391,11-10-2026 18:45,Takeaway,Cash,Cheesy Garlic Bread,Snacks,2,160,45,0,CUST0310,Sneha,,16.0,336.0
+BB/26-27/01387,11-10-2026 18:57,Dine-in,UPI,Hazelnut Latte,Coffee,1,200,55,0,CUST0310,Sneha,,10.0,210.0
+BB/26-27/01387,11-10-2026 18:57,Dine-in,UPI,Chocolate Brownie,Desserts,1,150,45,0,CUST0310,Sneha,,7.5,157.5
+BB/26-27/01387,11-10-2026 18:57,Dine-in,UPI,Cheesy Garlic Bread,Snacks,1,160,45,0,CUST0310,Sneha,,8.0,168.0
+BB/26-27/01380,11-10-2026 19:40,Swiggy,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,0,,Amit,,14.0,294.0
+BB/26-27/01380,11-10-2026 19:40,Swiggy,Online (App),Loaded Nachos,Snacks,2,210,65,0,,Amit,,21.0,441.0
+BB/26-27/01380,11-10-2026 19:40,Swiggy,Online (App),Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Amit,,17.0,357.0
+BB/26-27/01380,11-10-2026 19:40,Swiggy,Online (App),Cheesy Garlic Bread,Snacks,2,160,45,0,,Amit,,16.0,336.0
+BB/26-27/01393,11-10-2026 20:11,Swiggy,Online (App),Paneer Tikka Pizza,Pizza & Pasta,2,360,130,0,,Amit,2,36.0,756.0
+BB/26-27/01393,11-10-2026 20:11,Swiggy,Online (App),Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,,Amit,2,9.5,199.5
+BB/26-27/01388,11-10-2026 20:33,Dine-in,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Sneha,,17.0,357.0
+BB/26-27/01388,11-10-2026 20:33,Dine-in,UPI,Café Latte,Coffee,1,170,45,0,,Sneha,,8.5,178.5
+BB/26-27/01383,11-10-2026 21:24,Swiggy,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,0,,Sneha,4,14.0,294.0
+BB/26-27/01383,11-10-2026 21:24,Swiggy,Online (App),Classic Veg Burger,Snacks,1,160,55,0,,Sneha,4,8.0,168.0
+BB/26-27/01386,11-10-2026 21:45,Dine-in,UPI,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,CUST0317,Amit,,18.0,378.0
+BB/26-27/01386,11-10-2026 21:45,Dine-in,UPI,Americano,Coffee,1,140,32,0,CUST0317,Amit,,7.0,147.0
+BB/26-27/01386,11-10-2026 21:45,Dine-in,UPI,Peri Peri Fries,Snacks,2,140,38,0,CUST0317,Amit,,14.0,294.0
+BB/26-27/01382,11-10-2026 21:59,Zomato,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,0,,Amit,4,14.0,294.0
+BB/26-27/01382,11-10-2026 21:59,Zomato,Online (App),Café Latte,Coffee,1,170,45,0,,Amit,4,8.5,178.5
+BB/26-27/01389,11-10-2026 22:41,Swiggy,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,0,,Amit,4,14.0,294.0
+BB/26-27/01396,12-10-2026 10:45,Dine-in,Cash,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,,Rohit,,18.0,378.0
+BB/26-27/01396,12-10-2026 10:45,Dine-in,Cash,Peri Peri Fries,Snacks,1,140,38,0,,Rohit,,7.0,147.0
+BB/26-27/01395,12-10-2026 12:04,Zomato,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,,Rohit,4,7.5,157.5
+BB/26-27/01395,12-10-2026 12:04,Zomato,Online (App),Lemon Iced Tea,Tea & Mocktails,2,140,30,0,,Rohit,4,14.0,294.0
+BB/26-27/01394,12-10-2026 12:41,Dine-in,Card,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,CUST0180,Rohit,,9.5,199.5
+BB/26-27/01394,12-10-2026 12:41,Dine-in,Card,Cappuccino,Coffee,1,160,42,0,CUST0180,Rohit,,8.0,168.0
+BB/26-27/01397,12-10-2026 18:43,Zomato,Online (App),Peri Peri Fries,Snacks,1,140,38,0,,Sneha,4,7.0,147.0
+BB/26-27/01397,12-10-2026 18:43,Zomato,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,0,,Sneha,4,14.0,294.0
+BB/26-27/01397,12-10-2026 18:43,Zomato,Online (App),Chocolate Shake,Shakes,1,190,58,0,,Sneha,4,9.5,199.5
+BB/26-27/01408,13-10-2026 12:30,Swiggy,Online (App),Caramel Frappé,Coffee,1,230,70,10,,Rohit,4,10.35,217.35
+BB/26-27/01408,13-10-2026 12:30,Swiggy,Online (App),Paneer Wrap,Sandwiches & Wraps,1,210,75,10,,Rohit,4,9.45,198.45
+BB/26-27/01411,13-10-2026 13:08,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,10,,Rohit,,7.2,151.2
+BB/26-27/01411,13-10-2026 13:08,Dine-in,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,10,,Rohit,,15.3,321.3
+BB/26-27/01411,13-10-2026 13:08,Dine-in,UPI,Masala Chai,Tea & Mocktails,1,60,14,10,,Rohit,,2.7,56.7
+BB/26-27/01398,13-10-2026 13:12,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,10,,Rohit,,6.3,132.3
+BB/26-27/01398,13-10-2026 13:12,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,3,150,50,10,,Rohit,,20.25,425.25
+BB/26-27/01398,13-10-2026 13:12,Dine-in,UPI,White Sauce Pasta,Pizza & Pasta,1,260,85,10,,Rohit,,11.7,245.7
+BB/26-27/01398,13-10-2026 13:12,Dine-in,UPI,Choco Lava Cake,Desserts,1,170,50,10,,Rohit,,7.65,160.65
+BB/26-27/01414,13-10-2026 13:45,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,10,,Rohit,,6.3,132.3
+BB/26-27/01414,13-10-2026 13:45,Dine-in,UPI,Cold Coffee,Coffee,2,180,50,10,,Rohit,,16.2,340.2
+BB/26-27/01406,13-10-2026 14:06,Takeaway,Card,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,10,CUST0290,Rohit,,8.55,179.55
+BB/26-27/01406,13-10-2026 14:06,Takeaway,Card,Cappuccino,Coffee,1,160,42,10,CUST0290,Rohit,,7.2,151.2
+BB/26-27/01406,13-10-2026 14:06,Takeaway,Card,Iced Latte,Coffee,2,190,52,10,CUST0290,Rohit,,17.1,359.1
+BB/26-27/01406,13-10-2026 14:06,Takeaway,Card,Café Latte,Coffee,1,170,45,10,CUST0290,Rohit,,7.65,160.65
+BB/26-27/01407,13-10-2026 14:14,Takeaway,Cash,Margherita Pizza,Pizza & Pasta,2,280,95,10,CUST0180,Rohit,,25.2,529.2
+BB/26-27/01405,13-10-2026 14:28,Dine-in,UPI,Blueberry Cheesecake,Desserts,1,240,85,10,CUST0214,Rohit,,10.8,226.8
+BB/26-27/01405,13-10-2026 14:28,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,10,CUST0214,Rohit,,6.3,132.3
+BB/26-27/01404,13-10-2026 15:04,Dine-in,Cash,Café Latte,Coffee,1,170,45,10,,Rohit,,7.65,160.65
+BB/26-27/01401,13-10-2026 16:33,Dine-in,UPI,hazelnut latte ,Coffee,1,200,55,10,,Sneha,,9.0,189.0
+BB/26-27/01403,13-10-2026 17:57,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,10,CUST0317,Sneha,,7.2,151.2
+BB/26-27/01403,13-10-2026 17:57,Dine-in,UPI,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,10,CUST0317,Sneha,,8.55,179.55
+BB/26-27/01403,13-10-2026 17:57,Dine-in,UPI,Classic Veg Burger,Snacks,1,160,55,10,CUST0317,Sneha,,7.2,151.2
+BB/26-27/01413,13-10-2026 18:23,Dine-in,Cash,Margherita Pizza,Pizza & Pasta,1,280,95,10,,Sneha,,12.6,264.6
+BB/26-27/01413,13-10-2026 18:23,Dine-in,Cash,Masala Chai,Tea & Mocktails,1,60,14,10,,Sneha,,2.7,56.7
+BB/26-27/01410,13-10-2026 18:53,Dine-in,Cash,Oreo Shake,Shakes,3,200,60,10,,Sneha,,27.0,567.0
+BB/26-27/01410,13-10-2026 18:53,Dine-in,Cash,Classic Veg Burger,Snacks,1,160,55,10,,Sneha,,7.2,151.2
+BB/26-27/01400,13-10-2026 19:32,Dine-in,UPI,Hot Chocolate,Coffee,1,180,55,10,CUST0089,Sneha,,8.1,170.1
+BB/26-27/01400,13-10-2026 19:32,Dine-in,,Loaded Nachos,Snacks,1,210,65,10,CUST0089,Sneha,,9.45,198.45
+BB/26-27/01399,13-10-2026 19:44,Dine-in,UPI,White Sauce Pasta,Pizza & Pasta,1,260,85,10,,Sneha,,11.7,245.7
+BB/26-27/01399,13-10-2026 19:44,Dine-in,UPI,Hazelnut Latte,Coffee,1,200,55,10,,Sneha,,9.0,189.0
+BB/26-27/01399,13-10-2026 19:44,Dine-in,UPI,Margherita Pizza,Pizza & Pasta,1,280,95,10,,Sneha,,12.6,264.6
+BB/26-27/01409,13-10-2026 20:54,Dine-in,Card,Classic Veg Burger,Snacks,1,160,55,10,,Sneha,,7.2,151.2
+BB/26-27/01409,13-10-2026 20:54,Dine-in,Card,Café Latte,Coffee,1,170,45,10,,Sneha,,7.65,160.65
+BB/26-27/01409,13-10-2026 20:54,Dine-in,Card,Oreo Shake,Shakes,2,200,60,10,,Sneha,,18.0,378.0
+BB/26-27/01402,13-10-2026 21:18,Dine-in,UPI,Cheesy Garlic Bread,Snacks,1,160,45,10,CUST0214,Sneha,,7.2,151.2
+BB/26-27/01402,13-10-2026 21:18,Dine-in,UPI,White Sauce Pasta,Pizza & Pasta,1,260,85,10,CUST0214,Sneha,,11.7,245.7
+BB/26-27/01412,13-10-2026 21:25,Swiggy,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,2,150,50,10,,Sneha,4,13.5,283.5
+BB/26-27/01420,14-10-2026 10:13,Swiggy,Online (App),Red Sauce Pasta,Pizza & Pasta,2,240,78,5,,Rohit,5,22.8,478.8
+BB/26-27/01420,14-10-2026 10:13,Swiggy,Online (App),Café Latte,Coffee,1,170,45,5,,Rohit,5,8.08,169.58
+BB/26-27/01423,14-10-2026 11:40,Dine-in,UPI,Classic Veg Burger,Snacks,2,160,55,0,,Rohit,,16.0,336.0
+BB/26-27/01423,14-10-2026 11:40,Dine-in,UPI,Café Latte,Coffee,1,170,45,0,,Rohit,,8.5,178.5
+BB/26-27/01423,14-10-2026 11:40,Dine-in,UPI,Paneer Wrap,Sandwiches & Wraps,2,210,75,0,,Rohit,,21.0,441.0
+BB/26-27/01421,14-10-2026 13:31,Dine-in,Cash,Loaded Nachos,Snacks,1,210,65,0,CUST0132,Rohit,,10.5,220.5
+BB/26-27/01421,14-10-2026 13:31,Dine-in,Cash,Caramel Frappé,Coffee,2,230,70,0,CUST0132,Rohit,,23.0,483.0
+BB/26-27/01422,14-10-2026 14:37,Dine-in,Card,Peri Peri Fries,Snacks,1,140,38,0,,Rohit,,7.0,147.0
+BB/26-27/01419,14-10-2026 15:01,Dine-in,Cash,Virgin Mojito,Tea & Mocktails,1,160,35,0,,Rohit,,8.0,168.0
+BB/26-27/01419,14-10-2026 15:01,Dine-in,Cash,Margherita Pizza,Pizza & Pasta,1,280,95,0,,Rohit,,14.0,294.0
+BB/26-27/01417,14-10-2026 18:43,Takeaway,UPI,Espresso,Coffee,1,120,30,0,CUST0041,Sneha,,6.0,126.0
+BB/26-27/01417,14-10-2026 18:43,Takeaway,UPI,Masala Chai,Tea & Mocktails,1,60,14,0,CUST0041,Sneha,,3.0,63.0
+BB/26-27/01418,14-10-2026 19:13,Dine-in,,Caramel Frappé,Coffee,1,230,70,0,CUST0068,Sneha,,11.5,-241.5
+BB/26-27/01416,14-10-2026 19:18,Zomato,Online (App),Iced Latte,Coffee,2,190,52,0,,Sneha,4,19.0,399.0
+BB/26-27/01416,14-10-2026 19:18,Zomato,Online (App),Chocolate Brownie,Desserts,2,150,45,0,,Sneha,4,15.0,315.0
+BB/26-27/01424,14-10-2026 19:39,Dine-in,UPI,Lemon Iced Tea,Tea & Mocktails,1,140,30,0,CUST0132,Sneha,,7.0,147.0
+BB/26-27/01415,14-10-2026 21:39,Swiggy,Online (App),Cheesy Garlic Bread,Snacks,2,160,45,0,,Sneha,5,16.0,336.0
+BB/26-27/01415,14-10-2026 21:39,Swiggy,Online (App),Chocolate Shake,Shakes,1,190,58,0,,Sneha,5,9.5,199.5
+BB/26-27/01415,14-10-2026 21:39,Swiggy,Online (App),Loaded Nachos,Snacks,2,210,65,0,,Sneha,5,21.0,441.0
+BB/26-27/01415,14-10-2026 21:39,Swiggy,Online (App),White Sauce Pasta,Pizza & Pasta,1,260,85,0,,Sneha,5,13.0,273.0
+BB/26-27/01437,15-10-2026 09:16,Dine-in,UPI,Café Latte,Coffee,1,170,45,0,,Rohit,,8.5,178.5
+BB/26-27/01437,15-10-2026 09:16,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,,Rohit,,7.5,157.5
+BB/26-27/01437,15-10-2026 09:16,Dine-in,UPI,Margherita Pizza,Pizza & Pasta,1,280,95,0,,Rohit,,14.0,294.0
+BB/26-27/01435,15-10-2026 10:28,Swiggy,Online (App),Cheesy Garlic Bread,Snacks,2,160,45,0,,Rohit,5,16.0,336.0
+BB/26-27/01435,15-10-2026 10:28,Swiggy,Online (App),Peri Peri Fries,Snacks,1,140,38,0,,Rohit,5,7.0,147.0
+BB/26-27/01430,15-10-2026 11:50,Zomato,Online (App),Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,5,,Rohit,3,9.02,189.52
+BB/26-27/01429,15-10-2026 15:14,Dine-in,UPI,Cappuccino,Coffee,1,160,42,0,CUST0274,Rohit,,8.0,168.0
+BB/26-27/01429,15-10-2026 15:14,Dine-in,UPI,Loaded Nachos,Snacks,1,210,65,0,CUST0274,Rohit,,10.5,220.5
+BB/26-27/01431,15-10-2026 16:05,Swiggy,Online (App),Cappuccino,Coffee,1,160,42,5,,Sneha,,7.6,159.6
+BB/26-27/01431,15-10-2026 16:05,Swiggy,Online (App),Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,5,,Sneha,,9.02,189.52
+BB/26-27/01431,15-10-2026 16:05,Swiggy,Online (App),espresso ,Coffee,1,120,30,5,,Sneha,,5.7,119.7
+BB/26-27/01425,15-10-2026 16:19,Swiggy,,Cappuccino,Coffee,1,160,42,0,,Sneha,5,8.0,168.0
+BB/26-27/01427,15-10-2026 16:53,Dine-in,UPI,Red Sauce Pasta,Pizza & Pasta,1,240,78,0,,Sneha,,12.0,252.0
+BB/26-27/01433,15-10-2026 20:00,Takeaway,UPI,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,CUST0214,Sneha,,18.0,378.0
+BB/26-27/01433,15-10-2026 20:00,Takeaway,UPI,Cappuccino,Coffee,1,160,42,0,CUST0214,Sneha,,8.0,168.0
+BB/26-27/01433,15-10-2026 20:00,Takeaway,UPI,Farmhouse Pizza,Pizza & Pasta,2,340,120,0,CUST0214,Sneha,,34.0,714.0
+BB/26-27/01434,15-10-2026 20:13,Dine-in,UPI,Lemon Iced Tea,Tea & Mocktails,1,140,30,0,CUST0034,Sneha,,7.0,147.0
+BB/26-27/01436,15-10-2026 21:03,Swiggy,Online (App),Peri Peri Fries,Snacks,1,140,38,0,,Sneha,3,7.0,147.0
+BB/26-27/01428,15-10-2026 22:09,Takeaway,Card,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,CUST0089,Sneha,,9.5,199.5
+BB/26-27/01428,15-10-2026 22:09,Takeaway,Card,Margherita Pizza,Pizza & Pasta,2,280,95,0,CUST0089,Sneha,,28.0,588.0
+BB/26-27/01426,15-10-2026 22:20,Takeaway,Card,White Sauce Pasta,Pizza & Pasta,1,260,85,0,CUST0040,Sneha,,13.0,273.0
+BB/26-27/01426,15-10-2026 22:20,Takeaway,Card,Americano,Coffee,1,140,32,0,CUST0040,Sneha,,7.0,147.0
+BB/26-27/01426,15-10-2026 22:20,Takeaway,Card,Cheesy Garlic Bread,Snacks,1,160,45,0,CUST0040,Sneha,,8.0,168.0
+BB/26-27/01432,15-10-2026 22:57,Takeaway,UPI,Classic Veg Burger,Snacks,1,160,55,0,CUST0132,Sneha,,8.0,168.0
+BB/26-27/01432,15-10-2026 22:57,Takeaway,UPI,White Sauce Pasta,Pizza & Pasta,1,260,85,0,CUST0132,Sneha,,13.0,273.0
+BB/26-27/01432,15-10-2026 22:57,Takeaway,UPI,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,CUST0132,Sneha,,18.0,378.0
+BB/26-27/01440,16-10-2026 09:38,Swiggy,Online (App),Café Latte,Coffee,1,170,45,5,,Rohit,1,8.08,169.58
+BB/26-27/01440,16-10-2026 09:38,Swiggy,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,5,,Rohit,1,7.12,149.62
+BB/26-27/01440,16-10-2026 09:38,Swiggy,Online (App),Peri Peri Fries,Snacks,1,140,38,5,,Rohit,1,6.65,139.65
+BB/26-27/01440,16-10-2026 09:38,Swiggy,Online (App),Iced Latte,Coffee,1,190,52,5,,Rohit,1,9.02,189.52
+BB/26-27/01439,16-10-2026 10:11,Dine-in,Cash,Veg Grilled Sandwich,Sandwiches & Wraps,20,150,50,0,CUST0039,Rohit,,7.5,3150.0
+BB/26-27/01445,16-10-2026 10:14,Zomato,Online (App),Cappuccino,Coffee,1,160,42,0,,Rohit,,8.0,168.0
+BB/26-27/01445,16-10-2026 10:14,Zomato,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,,Rohit,,7.5,157.5
+BB/26-27/01446,16-10-2026 13:19,Dine-in,,Margherita Pizza,Pizza & Pasta,1,280,95,0,CUST0280,Rohit,,14.0,294.0
+BB/26-27/01446,16-10-2026 13:19,Dine-in,UPI,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,CUST0280,Rohit,,9.5,199.5
+BB/26-27/01447,16-10-2026 18:28,Dine-in,Cash,Cheesy Garlic Bread,Snacks,1,160,45,0,,Sneha,,8.0,168.0
+BB/26-27/01447,16-10-2026 18:28,Dine-in,Cash,Paneer Tikka Sandwich,Sandwiches & Wraps,3,190,68,0,,Sneha,,28.5,598.5
+BB/26-27/01438,16-10-2026 19:18,Dine-in,UPI,Masala Chai,Tea & Mocktails,1,60,14,0,,Sneha,,3.0,63.0
+BB/26-27/01442,16-10-2026 19:56,Swiggy,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,0,,Sneha,4,14.0,294.0
+BB/26-27/01442,16-10-2026 19:56,Swiggy,Online (App),Cold Coffee,Coffee,1,180,50,0,,Sneha,4,9.0,189.0
+BB/26-27/01442,16-10-2026 19:56,Swiggy,Online (App),Cold Coffee,Coffee,1,180,50,0,,Sneha,4,9.0,189.0
+BB/26-27/01441,16-10-2026 20:43,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,,Sneha,,8.0,168.0
+BB/26-27/01441,16-10-2026 20:43,Dine-in,UPI,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,,Sneha,,18.0,378.0
+BB/26-27/01443,16-10-2026 21:34,Swiggy,Online (App),White Sauce Pasta,Pizza & Pasta,1,260,85,0,,Sneha,,13.0,273.0
+BB/26-27/01443,16-10-2026 21:34,Swiggy,Online (App),Café Latte,Coffee,1,170,45,0,,Sneha,,8.5,178.5
+BB/26-27/01444,16-10-2026 22:08,Swiggy,Online (App),oreo shake ,Shakes,1,200,60,0,,Sneha,,10.0,210.0
+BB/26-27/01444,16-10-2026 22:08,Swiggy,Online (App),Farmhouse Pizza,Pizza & Pasta,3,340,120,0,,Sneha,,51.0,1071.0
+BB/26-27/01452,17-10-2026 09:47,Swiggy,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,,Amit,2,7.5,157.5
+BB/26-27/01457,17-10-2026 10:56,Dine-in,Card,Virgin Mojito,Tea & Mocktails,1,160,35,0,,Amit,,8.0,168.0
+BB/26-27/01457,17-10-2026 10:56,Dine-in,Card,Margherita Pizza,Pizza & Pasta,1,280,95,0,,Amit,,14.0,294.0
+BB/26-27/01448,17-10-2026 11:03,Zomato,Online (App),Caramel Frappé,Coffee,1,230,70,0,,Amit,5,11.5,241.5
+BB/26-27/01455,17-10-2026 11:30,Dine-in,Cash,peri peri fries ,Snacks,3,140,38,0,CUST0056,Rohit,,21.0,441.0
+BB/26-27/01455,17-10-2026 11:30,Dine-in,Cash,Lemon Iced Tea,Tea & Mocktails,1,140,30,0,CUST0056,Rohit,,7.0,147.0
+BB/26-27/01450,17-10-2026 13:28,Takeaway,UPI,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,,Amit,,18.0,378.0
+BB/26-27/01450,17-10-2026 13:28,Takeaway,UPI,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,,Amit,,9.5,199.5
+BB/26-27/01460,17-10-2026 13:28,Dine-in,UPI,Iced Latte,Coffee,1,190,52,0,,Rohit,,9.5,199.5
+BB/26-27/01460,17-10-2026 13:28,Dine-in,UPI,Espresso,Coffee,1,120,30,0,,Rohit,,6.0,126.0
+BB/26-27/01453,17-10-2026 13:33,Swiggy,Online (App),Classic Veg Burger,Snacks,2,160,55,0,,Rohit,3,16.0,336.0
+BB/26-27/01454,17-10-2026 17:35,Dine-in,UPI,Margherita Pizza,Pizza & Pasta,1,280,95,0,CUST0174,Sneha,,14.0,294.0
+BB/26-27/01454,17-10-2026 17:35,Dine-in,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,CUST0174,Sneha,,17.0,357.0
+BB/26-27/01454,17-10-2026 17:35,Dine-in,UPI,Paneer Wrap,Sandwiches & Wraps,1,210,75,0,CUST0174,Sneha,,10.5,220.5
+BB/26-27/01449,17-10-2026 18:36,Dine-in,UPI,Espresso,Coffee,1,120,30,0,,Amit,,6.0,126.0
+BB/26-27/01449,17-10-2026 18:36,Dine-in,UPI,Cheesy Garlic Bread,Snacks,1,160,45,0,,Amit,,8.0,168.0
+BB/26-27/01456,17-10-2026 19:16,Swiggy,Online (App),Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,,Sneha,,18.0,378.0
+BB/26-27/01451,17-10-2026 20:41,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,2,150,50,0,CUST0236,Amit,,15.0,315.0
+BB/26-27/01451,17-10-2026 20:41,Dine-in,UPI,Cold Coffee,Coffee,1,180,50,0,CUST0236,Amit,,9.0,189.0
+BB/26-27/01459,17-10-2026 21:13,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,0,CUST0195,Sneha,,7.0,147.0
+BB/26-27/01458,17-10-2026 21:55,Swiggy,Online (App),Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,5,,Amit,,9.02,189.52
+BB/26-27/01469,18-10-2026 09:05,Zomato,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,5,,Amit,4,13.3,279.3
+BB/26-27/01469,18-10-2026 09:05,Zomato,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,5,,Amit,4,7.12,149.62
+BB/26-27/01473,18-10-2026 10:41,Swiggy,Online (App),Peri Peri Fries,Snacks,1,140,38,5,,Amit,4,6.65,139.65
+BB/26-27/01473,18-10-2026 10:41,Swiggy,Online (App),Café Latte,Coffee,1,170,45,5,,Amit,4,8.08,169.58
+BB/26-27/01465,18-10-2026 11:12,Dine-in,UPI,Masala Chai,Tea & Mocktails,1,60,14,0,CUST0196,Amit,,3.0,63.0
+BB/26-27/01465,18-10-2026 11:12,Dine-in,UPI,Lemon Iced Tea,Tea & Mocktails,2,140,30,0,CUST0196,Amit,,14.0,294.0
+BB/26-27/01470,18-10-2026 13:15,Dine-in,Cash,Hazelnut Latte,Coffee,1,200,55,0,CUST0266,Rohit,,10.0,210.0
+BB/26-27/01470,18-10-2026 13:15,Dine-in,Cash,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,CUST0266,Rohit,,17.0,357.0
+BB/26-27/01474,18-10-2026 14:12,Dine-in,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,CUST0084,Amit,,17.0,357.0
+BB/26-27/01474,18-10-2026 14:12,Dine-in,UPI,Cheesy Garlic Bread,Snacks,1,160,45,0,CUST0084,Amit,,8.0,168.0
+BB/26-27/01463,18-10-2026 14:37,Dine-in,Card,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,CUST0132,Amit,,7.5,157.5
+BB/26-27/01463,18-10-2026 14:37,Dine-in,Card,Loaded Nachos,Snacks,1,210,65,0,CUST0132,Amit,,10.5,220.5
+BB/26-27/01462,18-10-2026 15:16,Dine-in,UPI,Chocolate Brownie,Desserts,1,150,45,0,,Rohit,,7.5,157.5
+BB/26-27/01466,18-10-2026 15:28,Dine-in,Cash,Margherita Pizza,Pizza & Pasta,1,280,95,0,,Amit,,14.0,294.0
+BB/26-27/01466,18-10-2026 15:28,Dine-in,Cash,Hazelnut Latte,Coffee,1,200,55,0,,Amit,,10.0,210.0
+BB/26-27/01461,18-10-2026 16:30,Swiggy,Online (App),Farmhouse Pizza,Pizza & Pasta,3,340,120,0,,Amit,,51.0,1071.0
+BB/26-27/01461,18-10-2026 16:30,Swiggy,Online (App),White Sauce Pasta,Pizza & Pasta,2,260,85,0,,Amit,,26.0,546.0
+BB/26-27/01461,18-10-2026 16:30,Swiggy,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,0,,Amit,,8.0,168.0
+BB/26-27/01461,18-10-2026 16:30,Swiggy,Online (App),Virgin Mojito,Tea & Mocktails,1,160,35,0,,Amit,,8.0,168.0
+BB/26-27/01467,18-10-2026 17:56,Dine-in,UPI,Classic Veg Burger,Snacks,2,160,55,0,,Amit,,16.0,336.0
+BB/26-27/01464,18-10-2026 18:48,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,,Sneha,,8.0,168.0
+BB/26-27/01471,18-10-2026 19:26,Takeaway,UPI,Hazelnut Latte,Coffee,1,200,55,0,,Sneha,,10.0,210.0
+BB/26-27/01471,18-10-2026 19:26,Takeaway,UPI,Peri Peri Fries,Snacks,1,140,38,0,,Sneha,,7.0,147.0
+BB/26-27/01471,18-10-2026 19:26,Takeaway,UPI,Margherita Pizza,Pizza & Pasta,1,280,95,0,,Sneha,,14.0,294.0
+BB/26-27/01471,18-10-2026 19:26,Takeaway,UPI,Chocolate Shake,Shakes,1,190,58,0,,Sneha,,9.5,199.5
+BB/26-27/01468,18-10-2026 20:48,Swiggy,Online (App),Paneer Tikka Sandwich,Sandwiches & Wraps,2,190,68,0,,Amit,,19.0,399.0
+BB/26-27/01468,18-10-2026 20:48,Swiggy,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,0,,Amit,,14.0,294.0
+BB/26-27/01472,18-10-2026 21:57,Dine-in,Card,Americano,Coffee,1,140,32,0,CUST0132,Sneha,,7.0,147.0
+BB/26-27/01482,19-10-2026 12:43,Takeaway,Cash,Lemon Iced Tea,Tea & Mocktails,1,140,30,0,CUST0151,Rohit,,7.0,147.0
+BB/26-27/01477,19-10-2026 13:07,Zomato,Online (App),Virgin Mojito,Tea & Mocktails,1,160,35,5,,Rohit,5,7.6,159.6
+BB/26-27/01477,19-10-2026 13:07,Zomato,Online (App),Chocolate Brownie,Desserts,1,150,45,5,,Rohit,5,7.12,149.62
+BB/26-27/01477,19-10-2026 13:07,Zomato,Online (App),Cold Coffee,Coffee,1,180,50,5,,Rohit,5,8.55,179.55
+BB/26-27/01477,19-10-2026 13:07,Zomato,Online (App),Caramel Frappé,Coffee,1,230,70,5,,Rohit,5,10.92,229.42
+BB/26-27/01480,19-10-2026 13:29,Swiggy,Online (App),Paneer Tikka Pizza,Pizza & Pasta,1,360,130,5,,Rohit,,17.1,359.1
+BB/26-27/01480,19-10-2026 13:29,Swiggy,Online (App),Red Sauce Pasta,Pizza & Pasta,1,240,78,5,,Rohit,,11.4,239.4
+BB/26-27/01480,19-10-2026 13:29,Swiggy,Online (App),Masala Chai,Tea & Mocktails,1,60,14,5,,Rohit,,2.85,59.85
+BB/26-27/01475,19-10-2026 14:37,Dine-in,Cash,Loaded Nachos,Snacks,1,210,65,0,,Rohit,,10.5,220.5
+BB/26-27/01475,19-10-2026 14:37,Dine-in,Cash,Cappuccino,Coffee,1,160,42,0,,Rohit,,8.0,168.0
+BB/26-27/01475,19-10-2026 14:37,Dine-in,Cash,Iced Latte,Coffee,1,190,52,0,,Rohit,,9.5,199.5
+BB/26-27/01475,19-10-2026 14:37,Dine-in,Cash,Café Latte,Coffee,1,170,45,0,,Rohit,,8.5,178.5
+BB/26-27/01478,19-10-2026 18:23,Dine-in,UPI,Cheesy Garlic Bread,Snacks,2,160,45,0,,Sneha,,16.0,-336.0
+BB/26-27/01478,19-10-2026 18:23,Dine-in,UPI,Hot Chocolate,Coffee,2,180,55,0,,Sneha,,18.0,378.0
+BB/26-27/01478,19-10-2026 18:23,Dine-in,UPI,Iced Latte,Coffee,1,190,52,0,,Sneha,,9.5,199.5
+BB/26-27/01476,19-10-2026 19:41,Takeaway,UPI,Chocolate Brownie,Desserts,1,150,45,0,,Sneha,,7.5,157.5
+BB/26-27/01476,19-10-2026 19:41,Takeaway,UPI,Red Sauce Pasta,Pizza & Pasta,1,240,78,0,,Sneha,,12.0,252.0
+BB/26-27/01476,19-10-2026 19:41,Takeaway,UPI,Choco Lava Cake,Desserts,3,170,50,0,,Sneha,,25.5,535.5
+BB/26-27/01483,19-10-2026 19:55,Swiggy,Online (App),Cold Coffee,Coffee,1,180,50,5,,Sneha,4,8.55,179.55
+BB/26-27/01483,19-10-2026 19:55,Swiggy,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,5,,Sneha,4,7.6,159.6
+BB/26-27/01483,19-10-2026 19:55,Swiggy,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,5,,Sneha,4,13.3,279.3
+BB/26-27/01481,19-10-2026 20:07,Dine-in,Cash,Peri Peri Fries,Snacks,1,140,38,0,CUST0122,Sneha,,7.0,147.0
+BB/26-27/01481,19-10-2026 20:07,Dine-in,Cash,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,CUST0122,Sneha,,17.0,357.0
+BB/26-27/01479,19-10-2026 20:40,Swiggy,Online (App),Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Sneha,4,17.0,357.0
+BB/26-27/01484,19-10-2026 22:32,Swiggy,Online (App),White Sauce Pasta,Pizza & Pasta,1,260,85,0,,Sneha,,13.0,273.0
+BB/26-27/01501,20-10-2026 10:06,Dine-in,UPI,Red Sauce Pasta,Pizza & Pasta,3,240,78,10,,Rohit,,32.4,680.4
+BB/26-27/01494,20-10-2026 13:05,Dine-in,UPI,Cold Coffee,Coffee,2,180,50,10,CUST0236,Rohit,,16.2,340.2
+BB/26-27/01494,20-10-2026 13:05,Dine-in,UPI,Margherita Pizza,Pizza & Pasta,1,280,95,10,CUST0236,Rohit,,12.6,264.6
+BB/26-27/01494,20-10-2026 13:05,Dine-in,UPI,Caramel Frappé,Coffee,1,230,70,10,CUST0236,Rohit,,10.35,217.35
+BB/26-27/01485,20-10-2026 13:14,Dine-in,UPI,Café Latte,Coffee,1,170,45,10,,Rohit,,7.65,160.65
+BB/26-27/01496,20-10-2026 13:14,Swiggy,Online (App),Chocolate Brownie,Desserts,2,150,45,10,,Rohit,4,13.5,283.5
+BB/26-27/01496,20-10-2026 13:14,Swiggy,Online (App),Choco Lava Cake,Desserts,1,170,50,10,,Rohit,4,7.65,160.65
+BB/26-27/01502,20-10-2026 14:11,Zomato,Online (App),Oreo Shake,Shakes,1,200,60,10,,Rohit,,9.0,189.0
+BB/26-27/01502,20-10-2026 14:11,Zomato,Online (App),Peri Peri Fries,Snacks,1,140,38,10,,Rohit,,6.3,132.3
+BB/26-27/01502,20-10-2026 14:11,Zomato,Online (App),Cold Coffee,Coffee,1,180,50,10,,Rohit,,8.1,170.1
+BB/26-27/01502,20-10-2026 14:11,Zomato,Online (App),Farmhouse Pizza,Pizza & Pasta,1,340,120,10,,Rohit,,15.3,321.3
+BB/26-27/01502,20-10-2026 14:11,Zomato,Online (App),Farmhouse Pizza,Pizza & Pasta,1,340,120,10,,Rohit,,15.3,321.3
+BB/26-27/01488,20-10-2026 15:44,Dine-in,UPI,Cold Coffee,Coffee,1,180,50,10,CUST0303,Rohit,,8.1,170.1
+BB/26-27/01488,20-10-2026 15:44,Dine-in,UPI,Paneer Wrap,Sandwiches & Wraps,1,210,75,10,CUST0303,Rohit,,9.45,198.45
+BB/26-27/01488,20-10-2026 15:44,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,10,CUST0303,Rohit,,6.3,132.3
+BB/26-27/01498,20-10-2026 15:50,Takeaway,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,10,,Rohit,,15.3,321.3
+BB/26-27/01486,20-10-2026 16:20,Dine-in,Card,Virgin Mojito,Tea & Mocktails,1,160,35,10,CUST0008,Sneha,,7.2,151.2
+BB/26-27/01486,20-10-2026 16:20,Dine-in,Card,Hazelnut Latte,Coffee,1,200,55,10,CUST0008,Sneha,,9.0,189.0
+BB/26-27/01499,20-10-2026 17:43,Dine-in,UPI,Margherita Pizza,Pizza & Pasta,2,280,95,10,CUST0039,Sneha,,25.2,529.2
+BB/26-27/01499,20-10-2026 17:43,Dine-in,UPI,Chocolate Shake,Shakes,1,190,58,10,CUST0039,Sneha,,8.55,179.55
+BB/26-27/01499,20-10-2026 17:43,Dine-in,UPI,Hazelnut Latte,Coffee,1,200,55,10,CUST0039,Sneha,,9.0,189.0
+BB/26-27/01493,20-10-2026 17:48,Zomato,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,10,,Sneha,3,6.75,141.75
+BB/26-27/01493,20-10-2026 17:48,Zomato,Online (App),Paneer Tikka Pizza,Pizza & Pasta,2,360,130,10,,Sneha,3,32.4,680.4
+BB/26-27/01493,20-10-2026 17:48,Zomato,Online (App),Paneer Wrap,Sandwiches & Wraps,1,210,75,10,,Sneha,3,9.45,198.45
+BB/26-27/01493,20-10-2026 17:48,Zomato,Online (App),Masala Chai,Tea & Mocktails,1,60,14,10,,Sneha,3,2.7,56.7
+BB/26-27/01487,20-10-2026 17:52,Dine-in,UPI,Classic Veg Burger,Snacks,1,160,55,10,,Sneha,,7.2,151.2
+BB/26-27/01487,20-10-2026 17:52,Dine-in,UPI,Margherita Pizza,Pizza & Pasta,1,280,95,10,,Sneha,,12.6,264.6
+BB/26-27/01487,20-10-2026 17:52,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,10,,Sneha,,6.75,141.75
+BB/26-27/01487,20-10-2026 17:52,Dine-in,UPI,Café Latte,Coffee,1,170,45,10,,Sneha,,7.65,160.65
+BB/26-27/01495,20-10-2026 18:45,Dine-in,UPI,Peri Peri Fries,Snacks,2,140,38,10,,Sneha,,12.6,264.6
+BB/26-27/01497,20-10-2026 19:52,Zomato,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,10,,Sneha,2,7.2,151.2
+BB/26-27/01492,20-10-2026 19:59,Takeaway,Cash,Café Latte,Coffee,1,170,45,10,CUST0172,Sneha,,7.65,-160.65
+BB/26-27/01492,20-10-2026 19:59,Takeaway,Cash,Hot Chocolate,Coffee,1,180,55,10,CUST0172,Sneha,,8.1,170.1
+BB/26-27/01492,20-10-2026 19:59,Takeaway,Cash,White Sauce Pasta,Pizza & Pasta,1,260,85,10,CUST0172,Sneha,,11.7,245.7
+BB/26-27/01490,20-10-2026 20:05,Swiggy,Online (App),White Sauce Pasta,Pizza & Pasta,1,260,85,10,,Sneha,,11.7,245.7
+BB/26-27/01490,20-10-2026 20:05,Swiggy,Online (App),Americano,Coffee,1,140,32,10,,Sneha,,6.3,132.3
+BB/26-27/01489,20-10-2026 20:27,Zomato,Online (App),Cappuccino,Coffee,1,160,42,10,,Sneha,5,7.2,151.2
+BB/26-27/01489,20-10-2026 20:27,Zomato,Online (App),Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,10,,Sneha,5,8.55,179.55
+BB/26-27/01500,20-10-2026 21:08,Zomato,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,10,,Sneha,3,6.75,141.75
+BB/26-27/01500,20-10-2026 21:08,Zomato,Online (App),Virgin Mojito,Tea & Mocktails,2,160,35,10,,Sneha,3,14.4,302.4
+BB/26-27/01491,20-10-2026 22:55,Takeaway,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,10,,Sneha,,6.75,141.75
+BB/26-27/01491,20-10-2026 22:55,Takeaway,UPI,Peri Peri Fries,Snacks,1,140,38,10,,Sneha,,6.3,132.3
+BB/26-27/01491,20-10-2026 22:55,Takeaway,UPI,Café Latte,Coffee,1,170,45,10,,Sneha,,7.65,160.65
+BB/26-27/01504,21-10-2026 11:06,Zomato,Online (App),Masala Chai,Tea & Mocktails,1,60,14,0,,Rohit,,3.0,63.0
+BB/26-27/01504,21-10-2026 11:06,Zomato,Online (App),Red Sauce Pasta,Pizza & Pasta,1,240,78,0,,Rohit,,12.0,252.0
+BB/26-27/01503,21-10-2026 11:45,Swiggy,Online (App),Cold Coffee,Coffee,1,180,50,0,,Rohit,4,9.0,189.0
+BB/26-27/01503,21-10-2026 11:45,Swiggy,Online (App),Virgin Mojito,Tea & Mocktails,3,160,35,0,,Rohit,4,24.0,504.0
+BB/26-27/01503,21-10-2026 11:45,Swiggy,Online (App),White Sauce Pasta,Pizza & Pasta,12,260,85,0,,Rohit,4,13.0,3276.0
+BB/26-27/01506,21-10-2026 18:25,Dine-in,UPI,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,,Sneha,,18.0,378.0
+BB/26-27/01506,21-10-2026 18:25,Dine-in,UPI,Margherita Pizza,Pizza & Pasta,1,280,95,0,,Sneha,,14.0,294.0
+BB/26-27/01505,21-10-2026 20:13,Takeaway,Cash,Lemon Iced Tea,Tea & Mocktails,1,140,30,0,,Sneha,,7.0,147.0
+BB/26-27/01505,21-10-2026 20:13,Takeaway,Cash,Margherita Pizza,Pizza & Pasta,1,280,95,0,,Sneha,,14.0,294.0
+BB/26-27/01509,22-10-2026 09:09,Dine-in,UPI,Americano,Coffee,1,140,32,0,,Rohit,,7.0,147.0
+BB/26-27/01509,22-10-2026 09:09,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,,Rohit,,7.5,157.5
+BB/26-27/01510,22-10-2026 09:28,Dine-in,UPI,Espresso,Coffee,1,120,30,0,,Rohit,,6.0,126.0
+BB/26-27/01512,22-10-2026 12:59,Dine-in,UPI,Paneer Tikka Sandwich,Sandwiches & Wraps,2,190,68,0,CUST0288,Rohit,,19.0,399.0
+BB/26-27/01512,22-10-2026 12:59,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,CUST0288,Rohit,,8.0,168.0
+BB/26-27/01513,22-10-2026 14:39,Dine-in,Cash,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,,Rohit,,18.0,378.0
+BB/26-27/01513,22-10-2026 14:39,Dine-in,Cash,Classic Veg Burger,Snacks,1,160,55,0,,Rohit,,8.0,168.0
+BB/26-27/01513,22-10-2026 14:39,Dine-in,Cash,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Rohit,,17.0,357.0
+BB/26-27/01513,22-10-2026 14:39,Dine-in,Cash,Cold Coffee,Coffee,1,180,50,0,,Rohit,,9.0,189.0
+BB/26-27/01508,22-10-2026 16:32,Takeaway,UPI,Cappuccino,Coffee,2,160,42,0,,Sneha,,16.0,336.0
+BB/26-27/01508,22-10-2026 16:32,Takeaway,UPI,Hazelnut Latte,Coffee,3,200,55,0,,Sneha,,30.0,630.0
+BB/26-27/01508,22-10-2026 16:32,Takeaway,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Sneha,,17.0,357.0
+BB/26-27/01508,22-10-2026 16:32,Takeaway,UPI,Peri Peri Fries,Snacks,1,140,38,0,,Sneha,,7.0,147.0
+BB/26-27/01507,22-10-2026 19:34,Takeaway,UPI,Hot Chocolate,Coffee,1,180,55,0,,Sneha,,9.0,189.0
+BB/26-27/01507,22-10-2026 19:34,Takeaway,UPI,Classic Veg Burger,Snacks,1,160,55,0,,Sneha,,8.0,168.0
+BB/26-27/01507,22-10-2026 19:34,Takeaway,UPI,Peri Peri Fries,Snacks,1,140,38,0,,Sneha,,7.0,147.0
+BB/26-27/01507,22-10-2026 19:34,Takeaway,UPI,Espresso,Coffee,1,120,30,0,,Sneha,,6.0,126.0
+BB/26-27/01511,22-10-2026 19:53,Zomato,Online (App),Farmhouse Pizza,Pizza & Pasta,2,340,120,0,,Sneha,,34.0,714.0
+BB/26-27/01511,22-10-2026 19:53,Zomato,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,0,,Sneha,,8.0,168.0
+BB/26-27/01511,22-10-2026 19:53,Zomato,Online (App),Americano,Coffee,2,140,32,0,,Sneha,,14.0,294.0
+BB/26-27/01514,22-10-2026 20:45,Takeaway,Card,Margherita Pizza,Pizza & Pasta,1,280,95,0,CUST0083,Sneha,,14.0,294.0
+BB/26-27/01517,23-10-2026 09:20,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,,Rohit,,7.5,157.5
+BB/26-27/01516,23-10-2026 11:31,Dine-in,Cash,Classic Veg Burger,Snacks,1,160,55,0,,Rohit,,8.0,168.0
+BB/26-27/01525,23-10-2026 12:48,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,,Rohit,,8.0,168.0
+BB/26-27/01525,23-10-2026 12:48,Dine-in,UPI,Café Latte,Coffee,2,170,45,0,,Rohit,,17.0,357.0
+BB/26-27/01521,23-10-2026 13:03,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,0,CUST0214,Rohit,,7.0,147.0
+BB/26-27/01523,23-10-2026 13:27,Dine-in,UPI,Blueberry Cheesecake,Desserts,3,240,85,0,CUST0126,Rohit,,36.0,756.0
+BB/26-27/01524,23-10-2026 15:07,Swiggy,Online (App),Choco Lava Cake,Desserts,1,170,50,5,,Rohit,5,8.08,169.58
+BB/26-27/01520,23-10-2026 17:15,Dine-in,UPI,Americano,Coffee,1,140,32,0,CUST0214,Sneha,,7.0,147.0
+BB/26-27/01520,23-10-2026 17:15,Dine-in,UPI,Iced Latte,Coffee,1,190,52,0,CUST0214,Sneha,,9.5,199.5
+BB/26-27/01520,23-10-2026 17:15,Dine-in,UPI,Masala Chai,Tea & Mocktails,1,60,14,0,CUST0214,Sneha,,3.0,63.0
+BB/26-27/01519,23-10-2026 17:53,Dine-in,UPI,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,CUST0254,Sneha,,9.5,199.5
+BB/26-27/01526,23-10-2026 19:14,Takeaway,UPI,Cold Coffee,Coffee,1,180,50,0,CUST0213,Sneha,,9.0,189.0
+BB/26-27/01526,23-10-2026 19:14,Takeaway,UPI,Hot Chocolate,Coffee,1,180,55,0,CUST0213,Sneha,,9.0,189.0
+BB/26-27/01515,23-10-2026 19:55,Dine-in,Card,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,,Sneha,,9.5,199.5
+BB/26-27/01515,23-10-2026 19:55,Dine-in,Card,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,,Sneha,,7.5,157.5
+BB/26-27/01522,23-10-2026 20:16,Zomato,Online (App),Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,5,,Sneha,4,9.02,189.52
+BB/26-27/01522,23-10-2026 20:16,Zomato,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,5,,Sneha,4,7.6,159.6
+BB/26-27/01522,23-10-2026 20:16,Zomato,Online (App),Farmhouse Pizza,Pizza & Pasta,1,340,120,5,,Sneha,4,16.15,339.15
+BB/26-27/01518,23-10-2026 21:49,Dine-in,UPI,Iced Latte,Coffee,1,190,52,0,,Sneha,,9.5,199.5
+BB/26-27/01529,24-10-2026 10:16,Takeaway,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,CUST0228,Amit,,7.5,157.5
+BB/26-27/01529,24-10-2026 10:16,Takeaway,UPI,Cold Coffee,Coffee,2,180,50,0,CUST0228,Amit,,18.0,378.0
+BB/26-27/01532,24-10-2026 17:05,Swiggy,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,,Amit,,7.5,157.5
+BB/26-27/01532,24-10-2026 17:05,Swiggy,Online (App),Iced Latte,Coffee,1,190,52,0,,Amit,,9.5,199.5
+BB/26-27/01531,24-10-2026 17:16,Swiggy,Online (App),White Sauce Pasta,Pizza & Pasta,1,260,85,5,,Sneha,3,12.35,259.35
+BB/26-27/01531,24-10-2026 17:16,Swiggy,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,5,,Sneha,3,7.6,159.6
+BB/26-27/01531,24-10-2026 17:16,Swiggy,Online (App),Lemon Iced Tea,Tea & Mocktails,1,140,30,5,,Sneha,3,6.65,139.65
+BB/26-27/01531,24-10-2026 17:16,Swiggy,Online (App),Espresso,Coffee,1,120,30,5,,Sneha,3,5.7,119.7
+BB/26-27/01531,24-10-2026 17:16,Swiggy,Online (App),White Sauce Pasta,Pizza & Pasta,1,260,85,5,,Sneha,3,12.35,259.35
+BB/26-27/01528,24-10-2026 18:26,Takeaway,UPI,Classic Veg Burger,Snacks,2,160,55,0,,Sneha,,16.0,336.0
+BB/26-27/01528,24-10-2026 18:26,Takeaway,UPI,White Sauce Pasta,Pizza & Pasta,1,260,85,0,,Sneha,,13.0,273.0
+BB/26-27/01528,24-10-2026 18:26,Takeaway,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,,Sneha,,17.0,357.0
+BB/26-27/01530,24-10-2026 19:23,Takeaway,Cash,Loaded Nachos,Snacks,1,210,65,0,,Amit,,10.5,220.5
+BB/26-27/01530,24-10-2026 19:23,Takeaway,Cash,Loaded Nachos,Snacks,1,210,65,0,,Amit,,10.5,220.5
+BB/26-27/01533,24-10-2026 20:33,Takeaway,Card,Classic Veg Burger,Snacks,1,160,55,0,CUST0124,Sneha,,8.0,168.0
+BB/26-27/01533,24-10-2026 20:33,Takeaway,Card,Cold Coffee,Coffee,2,180,50,0,CUST0124,Sneha,,18.0,378.0
+BB/26-27/01533,24-10-2026 20:33,Takeaway,Card,Cold Coffee,Coffee,2,180,50,0,CUST0124,Sneha,,18.0,378.0
+BB/26-27/01527,24-10-2026 22:02,Swiggy,Online (App),Virgin Mojito,Tea & Mocktails,1,160,35,5,,Sneha,3,7.6,159.6
+BB/26-27/01536,25-10-2026 12:30,Dine-in,UPI,Classic Veg Burger,Snacks,1,160,55,0,CUST0132,Rohit,,8.0,168.0
+BB/26-27/01536,25-10-2026 12:30,Dine-in,UPI,Lemon Iced Tea,Tea & Mocktails,1,140,30,0,CUST0132,Rohit,,7.0,147.0
+BB/26-27/01536,25-10-2026 12:30,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,CUST0132,Rohit,,7.5,157.5
+BB/26-27/01536,25-10-2026 12:30,Dine-in,UPI,Red Sauce Pasta,Pizza & Pasta,1,240,78,0,CUST0132,Rohit,,12.0,252.0
+BB/26-27/01535,25-10-2026 15:35,Dine-in,Cash,Hazelnut Latte,Coffee,1,200,55,0,CUST0143,Amit,,10.0,210.0
+BB/26-27/01535,25-10-2026 15:35,Dine-in,Cash,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,CUST0143,Amit,,7.5,157.5
+BB/26-27/01534,25-10-2026 16:11,Takeaway,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,,Amit,,8.0,168.0
+BB/26-27/01534,25-10-2026 16:11,Takeaway,UPI,Cold Coffee,Coffee,1,180,50,0,,Amit,,9.0,189.0
+BB/26-27/01545,25-10-2026 16:18,Takeaway,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,CUST0079,Sneha,,7.5,157.5
+BB/26-27/01538,25-10-2026 16:21,Takeaway,Card,Cheesy Garlic Bread,Snacks,1,160,45,0,CUST0055,Sneha,,8.0,168.0
+BB/26-27/01538,25-10-2026 16:21,Takeaway,Card,Lemon Iced Tea,Tea & Mocktails,1,140,30,0,CUST0055,Sneha,,7.0,147.0
+BB/26-27/01542,25-10-2026 17:38,Dine-in,Card,Cappuccino,Coffee,1,160,42,0,,Amit,,8.0,168.0
+BB/26-27/01537,25-10-2026 17:43,Dine-in,UPI,Margherita Pizza,Pizza & Pasta,1,280,95,0,CUST0180,Sneha,,14.0,294.0
+BB/26-27/01537,25-10-2026 17:43,Dine-in,UPI,peri peri fries ,Snacks,1,140,38,0,CUST0180,Sneha,,7.0,147.0
+BB/26-27/01543,25-10-2026 20:16,Dine-in,UPI,Oreo Shake,Shakes,2,200,60,0,,Amit,,20.0,420.0
+BB/26-27/01541,25-10-2026 20:19,Dine-in,UPI,Americano,Coffee,1,140,32,0,,Sneha,,7.0,147.0
+BB/26-27/01541,25-10-2026 20:19,Dine-in,UPI,White Sauce Pasta,Pizza & Pasta,1,260,85,0,,Sneha,,13.0,273.0
+BB/26-27/01546,25-10-2026 20:47,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,2,160,35,0,,Sneha,,16.0,336.0
+BB/26-27/01540,25-10-2026 21:20,Dine-in,UPI,White Sauce Pasta,Pizza & Pasta,3,260,85,0,,Sneha,,39.0,819.0
+BB/26-27/01539,25-10-2026 21:24,Dine-in,UPI,Classic Veg Burger,Snacks,1,160,55,0,CUST0317,Amit,,8.0,168.0
+BB/26-27/01539,25-10-2026 21:24,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,0,CUST0317,Amit,,7.0,147.0
+BB/26-27/01544,25-10-2026 21:25,Zomato,Online (App),Espresso,Coffee,1,120,30,0,,Sneha,4,6.0,126.0
+BB/26-27/01551,26-10-2026 12:02,Swiggy,Online (App),Cappuccino,Coffee,2,160,42,5,,Rohit,,15.2,319.2
+BB/26-27/01551,26-10-2026 12:02,Swiggy,Online (App),Oreo Shake,Shakes,1,200,60,5,,Rohit,,9.5,199.5
+BB/26-27/01551,26-10-2026 12:02,Swiggy,Online (App),Farmhouse Pizza,Pizza & Pasta,1,340,120,5,,Rohit,,16.15,339.15
+BB/26-27/01548,26-10-2026 16:53,Swiggy,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,5,,Sneha,,7.6,159.6
+BB/26-27/01548,26-10-2026 16:53,Swiggy,Online (App),Americano,Coffee,1,140,32,5,,Sneha,,6.65,139.65
+BB/26-27/01548,26-10-2026 16:53,Swiggy,Online (App),Paneer Wrap,Sandwiches & Wraps,1,210,75,5,,Sneha,,9.98,209.48
+BB/26-27/01552,26-10-2026 17:26,Dine-in,UPI,Paneer Wrap,Sandwiches & Wraps,2,210,75,0,,Sneha,,21.0,441.0
+BB/26-27/01547,26-10-2026 20:27,Swiggy,Online (App),Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,5,,Sneha,4,9.02,189.52
+BB/26-27/01553,26-10-2026 21:43,Swiggy,Online (App),Café Latte,Coffee,1,170,45,0,,Sneha,4,8.5,178.5
+BB/26-27/01550,26-10-2026 21:59,Zomato,Online (App),White Sauce Pasta,Pizza & Pasta,1,260,85,5,,Sneha,5,12.35,259.35
+BB/26-27/01550,26-10-2026 21:59,Zomato,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,5,,Sneha,5,7.12,149.62
+BB/26-27/01549,26-10-2026 22:09,Dine-in,UPI,Margherita Pizza,Pizza & Pasta,1,280,95,0,,Sneha,,14.0,294.0
+BB/26-27/01549,26-10-2026 22:09,Dine-in,,Red Sauce Pasta,Pizza & Pasta,1,240,78,0,,Sneha,,12.0,252.0
+BB/26-27/01556,27-10-2026 09:17,Zomato,Online (App),Chocolate Shake,Shakes,2,190,58,10,,Rohit,5,17.1,359.1
+BB/26-27/01563,27-10-2026 14:17,Zomato,Online (App),Oreo Shake,Shakes,2,200,60,10,,Rohit,,18.0,378.0
+BB/26-27/01563,27-10-2026 14:17,Zomato,Online (App),Caramel Frappé,Coffee,1,230,70,10,,Rohit,,10.35,217.35
+BB/26-27/01563,27-10-2026 14:17,Zomato,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,10,,Rohit,,7.2,151.2
+BB/26-27/01558,27-10-2026 14:42,Zomato,Online (App),Cappuccino,Coffee,1,160,42,10,,Rohit,5,7.2,151.2
+BB/26-27/01557,27-10-2026 15:10,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,10,,Rohit,,7.2,151.2
+BB/26-27/01557,27-10-2026 15:10,Dine-in,UPI,Oreo Shake,Shakes,1,200,60,10,,Rohit,,9.0,189.0
+BB/26-27/01554,27-10-2026 16:02,Dine-in,UPI,Classic Veg Burger,Snacks,1,160,55,10,CUST0317,Sneha,,7.2,151.2
+BB/26-27/01554,27-10-2026 16:02,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,10,CUST0317,Sneha,,6.3,132.3
+BB/26-27/01554,27-10-2026 16:02,Dine-in,UPI,Masala Chai,Tea & Mocktails,1,60,14,10,CUST0317,Sneha,,2.7,56.7
+BB/26-27/01554,27-10-2026 16:02,Dine-in,UPI,Cold Coffee,Coffee,1,180,50,10,CUST0317,Sneha,,8.1,170.1
+BB/26-27/01559,27-10-2026 18:28,Dine-in,Cash,Masala Chai,Tea & Mocktails,3,60,14,10,,Sneha,,8.1,170.1
+BB/26-27/01559,27-10-2026 18:28,Dine-in,Cash,Oreo Shake,Shakes,1,200,60,10,,Sneha,,9.0,189.0
+BB/26-27/01559,27-10-2026 18:28,Dine-in,Cash,Peri Peri Fries,Snacks,1,140,38,10,,Sneha,,6.3,132.3
+BB/26-27/01559,27-10-2026 18:28,Dine-in,Cash,Virgin Mojito,Tea & Mocktails,1,160,35,10,,Sneha,,7.2,151.2
+BB/26-27/01561,27-10-2026 18:59,Takeaway,UPI,White Sauce Pasta,Pizza & Pasta,1,260,85,10,CUST0089,Sneha,,11.7,245.7
+BB/26-27/01561,27-10-2026 18:59,Takeaway,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,10,CUST0089,Sneha,,6.75,141.75
+BB/26-27/01561,27-10-2026 18:59,Takeaway,UPI,Peri Peri Fries,Snacks,1,140,38,10,CUST0089,Sneha,,6.3,132.3
+BB/26-27/01555,27-10-2026 19:00,Swiggy,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,10,,Sneha,3,12.6,264.6
+BB/26-27/01555,27-10-2026 19:00,Swiggy,Online (App),Masala Chai,Tea & Mocktails,1,60,14,10,,Sneha,3,2.7,56.7
+BB/26-27/01555,27-10-2026 19:00,Swiggy,Online (App),Classic Veg Burger,Snacks,1,160,55,10,,Sneha,3,7.2,151.2
+BB/26-27/01555,27-10-2026 19:00,Swiggy,Online (App),Chocolate Shake,Shakes,2,190,58,10,,Sneha,3,17.1,359.1
+BB/26-27/01560,27-10-2026 19:40,Dine-in,UPI,Iced Latte,Coffee,1,190,52,10,CUST0041,Sneha,,8.55,179.55
+BB/26-27/01560,27-10-2026 19:40,Dine-in,UPI,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,10,CUST0041,Sneha,,16.2,340.2
+BB/26-27/01560,27-10-2026 19:40,Dine-in,UPI,Cappuccino,Coffee,1,160,42,10,CUST0041,Sneha,,7.2,151.2
+BB/26-27/01560,27-10-2026 19:40,Dine-in,UPI,Hazelnut Latte,Coffee,1,200,55,10,CUST0041,Sneha,,9.0,189.0
+BB/26-27/01562,27-10-2026 20:05,Zomato,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,10,,Sneha,,6.75,141.75
+BB/26-27/01562,27-10-2026 20:05,Zomato,Online (App),Lemon Iced Tea,Tea & Mocktails,2,140,30,10,,Sneha,,12.6,264.6
+BB/26-27/01564,28-10-2026 11:11,Zomato,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,2,150,50,0,,Rohit,4,15.0,315.0
+BB/26-27/01570,28-10-2026 13:07,Dine-in,UPI,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,,Rohit,,9.5,199.5
+BB/26-27/01570,28-10-2026 13:07,Dine-in,UPI,Oreo Shake,Shakes,2,200,60,0,,Rohit,,20.0,420.0
+BB/26-27/01570,28-10-2026 13:07,Dine-in,UPI,Iced Latte,Coffee,1,190,52,0,,Rohit,,9.5,199.5
+BB/26-27/01567,28-10-2026 14:25,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,0,,Rohit,,7.0,147.0
+BB/26-27/01565,28-10-2026 15:19,Takeaway,Cash,Margherita Pizza,Pizza & Pasta,1,280,95,0,,Rohit,,14.0,294.0
+BB/26-27/01565,28-10-2026 15:19,Takeaway,Cash,Red Sauce Pasta,Pizza & Pasta,1,240,78,0,,Rohit,,12.0,252.0
+BB/26-27/01565,28-10-2026 15:19,Takeaway,Cash,Loaded Nachos,Snacks,1,210,65,0,,Rohit,,10.5,220.5
+BB/26-27/01565,28-10-2026 15:19,Takeaway,Cash,Lemon Iced Tea,Tea & Mocktails,1,140,30,0,,Rohit,,7.0,147.0
+BB/26-27/01569,28-10-2026 18:11,Zomato,Online (App),Café Latte,Coffee,1,170,45,5,,Sneha,4,8.08,169.58
+BB/26-27/01569,28-10-2026 18:11,Zomato,Online (App),Virgin Mojito,Tea & Mocktails,1,160,35,5,,Sneha,4,7.6,159.6
+BB/26-27/01566,28-10-2026 19:05,Takeaway,UPI,Margherita Pizza,Pizza & Pasta,1,280,95,0,CUST0147,Sneha,,14.0,294.0
+BB/26-27/01566,28-10-2026 19:05,Takeaway,UPI,Cold Coffee,Coffee,1,180,50,0,CUST0147,Sneha,,9.0,189.0
+BB/26-27/01566,28-10-2026 19:05,Takeaway,UPI,Cheesy Garlic Bread,Snacks,1,160,45,0,CUST0147,Sneha,,8.0,168.0
+BB/26-27/01571,28-10-2026 20:04,Takeaway,Cash,Virgin Mojito,Tea & Mocktails,2,160,35,0,,Sneha,,16.0,336.0
+BB/26-27/01571,28-10-2026 20:04,Takeaway,Cash,Café Latte,Coffee,1,170,45,0,,Sneha,,8.5,178.5
+BB/26-27/01571,28-10-2026 20:04,Takeaway,Cash,Choco Lava Cake,Desserts,1,170,50,0,,Sneha,,8.5,178.5
+BB/26-27/01568,28-10-2026 21:44,Takeaway,Cash,White Sauce Pasta,Pizza & Pasta,1,260,85,0,,Sneha,,13.0,273.0
+BB/26-27/01568,28-10-2026 21:44,Takeaway,Cash,Café Latte,Coffee,1,170,45,0,,Sneha,,8.5,178.5
+BB/26-27/01574,29-10-2026 11:13,Dine-in,UPI,Choco Lava Cake,Desserts,1,170,50,0,CUST0132,Rohit,,8.5,178.5
+BB/26-27/01576,29-10-2026 14:05,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,CUST0115,Rohit,,8.0,168.0
+BB/26-27/01576,29-10-2026 14:05,Dine-in,UPI,Masala Chai,Tea & Mocktails,2,60,14,0,CUST0115,Rohit,,6.0,126.0
+BB/26-27/01575,29-10-2026 15:01,Dine-in,UPI,Iced Latte,Coffee,1,190,52,0,,Rohit,,9.5,199.5
+BB/26-27/01575,29-10-2026 15:01,Dine-in,UPI,Paneer Tikka Sandwich,Sandwiches & Wraps,1,190,68,0,,Rohit,,9.5,199.5
+BB/26-27/01575,29-10-2026 15:01,Dine-in,UPI,Oreo Shake,Shakes,2,200,60,0,,Rohit,,20.0,420.0
+BB/26-27/01575,29-10-2026 15:01,Dine-in,UPI,Peri Peri Fries,Snacks,1,140,38,0,,Rohit,,7.0,147.0
+BB/26-27/01579,29-10-2026 17:42,Zomato,Online (App),Caramel Frappé,Coffee,1,230,70,5,,Sneha,,10.92,229.42
+BB/26-27/01579,29-10-2026 17:42,Zomato,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,5,,Sneha,,7.6,159.6
+BB/26-27/01578,29-10-2026 18:20,Zomato,Online (App),Cheesy Garlic Bread,Snacks,1,160,45,5,,Sneha,,7.6,159.6
+BB/26-27/01578,29-10-2026 18:20,Zomato,Online (App),Hot Chocolate,Coffee,1,180,55,5,,Sneha,,8.55,179.55
+BB/26-27/01572,29-10-2026 18:56,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,CUST0221,Sneha,,7.5,157.5
+BB/26-27/01572,29-10-2026 18:56,Dine-in,UPI,White Sauce Pasta,Pizza & Pasta,2,260,85,0,CUST0221,Sneha,,26.0,546.0
+BB/26-27/01572,29-10-2026 18:56,Dine-in,UPI,Peri Peri Fries,Snacks,2,140,38,0,CUST0221,Sneha,,14.0,294.0
+BB/26-27/01572,29-10-2026 18:56,Dine-in,UPI,Chocolate Shake,Shakes,1,190,58,0,CUST0221,Sneha,,9.5,199.5
+BB/26-27/01573,29-10-2026 19:56,Dine-in,Cash,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,,Sneha,,7.5,157.5
+BB/26-27/01577,29-10-2026 20:15,Swiggy,Online (App),Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,,Sneha,4,7.5,157.5
+BB/26-27/01577,29-10-2026 20:15,Swiggy,Online (App),Peri Peri Fries,Snacks,3,140,38,0,,Sneha,4,21.0,441.0
+BB/26-27/01580,30-10-2026 10:02,Dine-in,UPI,Masala Chai,Tea & Mocktails,1,60,14,0,,Rohit,,3.0,63.0
+BB/26-27/01580,30-10-2026 10:02,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,,Rohit,,7.5,157.5
+BB/26-27/01580,30-10-2026 10:02,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,,Rohit,,8.0,168.0
+BB/26-27/01581,30-10-2026 13:12,Zomato,Online (App),Loaded Nachos,Snacks,1,210,65,0,,Rohit,4,10.5,220.5
+BB/26-27/01582,30-10-2026 17:54,Dine-in,Card,Virgin Mojito,Tea & Mocktails,1,160,35,0,,Sneha,,8.0,168.0
+BB/26-27/01582,30-10-2026 17:54,Dine-in,Card,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,,Sneha,,7.5,157.5
+BB/26-27/01583,30-10-2026 18:19,Dine-in,UPI,Lemon Iced Tea,Tea & Mocktails,1,140,30,0,,Sneha,,7.0,147.0
+BB/26-27/01586,31-10-2026 11:48,Swiggy,Online (App),Loaded Nachos,Snacks,1,210,65,5,,Amit,,9.98,209.48
+BB/26-27/01586,31-10-2026 11:48,Swiggy,,Chocolate Shake,Shakes,1,190,58,5,,Amit,,9.02,189.52
+BB/26-27/01584,31-10-2026 13:11,Takeaway,UPI,Café Latte,Coffee,2,170,45,0,CUST0303,Rohit,,17.0,357.0
+BB/26-27/01595,31-10-2026 14:09,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,2,150,50,0,,Amit,,15.0,315.0
+BB/26-27/01595,31-10-2026 14:09,Dine-in,UPI,Masala Chai,Tea & Mocktails,1,60,14,0,,Amit,,3.0,63.0
+BB/26-27/01595,31-10-2026 14:09,Dine-in,UPI,Paneer Tikka Pizza,Pizza & Pasta,2,360,130,0,,Amit,,36.0,756.0
+BB/26-27/01590,31-10-2026 16:55,Dine-in,UPI,Caramel Frappé,Coffee,1,230,70,0,CUST0056,Amit,,11.5,241.5
+BB/26-27/01590,31-10-2026 16:55,Dine-in,UPI,Cheesy Garlic Bread,Snacks,1,160,45,0,CUST0056,Amit,,8.0,168.0
+BB/26-27/01593,31-10-2026 17:39,Dine-in,UPI,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,CUST0241,Amit,,18.0,378.0
+BB/26-27/01593,31-10-2026 17:39,Dine-in,UPI,Cheesy Garlic Bread,Snacks,1,160,45,0,CUST0241,Amit,,8.0,168.0
+BB/26-27/01593,31-10-2026 17:39,Dine-in,UPI,Margherita Pizza,Pizza & Pasta,2,280,95,0,CUST0241,Amit,,28.0,588.0
+BB/26-27/01585,31-10-2026 18:17,Zomato,Online (App),Oreo Shake,Shakes,1,200,60,5,,Sneha,,9.5,199.5
+BB/26-27/01585,31-10-2026 18:17,Zomato,Online (App),Cappuccino,Coffee,1,160,42,5,,Sneha,,7.6,159.6
+BB/26-27/01585,31-10-2026 18:17,Zomato,,Farmhouse Pizza,Pizza & Pasta,1,340,120,5,,Sneha,,16.15,339.15
+BB/26-27/01591,31-10-2026 18:25,Dine-in,Cash,Cappuccino,Coffee,1,160,42,0,CUST0006,Sneha,,8.0,168.0
+BB/26-27/01591,31-10-2026 18:25,Dine-in,Cash,Peri Peri Fries,Snacks,1,140,38,0,CUST0006,Sneha,,7.0,147.0
+BB/26-27/01591,31-10-2026 18:25,Dine-in,Cash,Americano,Coffee,1,140,32,0,CUST0006,Sneha,,7.0,147.0
+BB/26-27/01591,31-10-2026 18:25,Dine-in,Cash,Classic Veg Burger,Snacks,1,160,55,0,CUST0006,Sneha,,8.0,168.0
+BB/26-27/01588,31-10-2026 18:59,Dine-in,UPI,Loaded Nachos,Snacks,1,210,65,0,CUST0247,Amit,,10.5,220.5
+BB/26-27/01588,31-10-2026 18:59,Dine-in,UPI,Cappuccino,Coffee,1,160,42,0,CUST0247,Amit,,8.0,168.0
+BB/26-27/01589,31-10-2026 19:06,Dine-in,Card,Classic Veg Burger,Snacks,1,160,55,0,,Amit,,8.0,168.0
+BB/26-27/01589,31-10-2026 19:06,Dine-in,Card,Cappuccino,Coffee,1,160,42,0,,Amit,,8.0,168.0
+BB/26-27/01589,31-10-2026 19:06,Dine-in,Card,Paneer Tikka Pizza,Pizza & Pasta,1,360,130,0,,Amit,,18.0,378.0
+BB/26-27/01587,31-10-2026 19:18,Dine-in,UPI,Farmhouse Pizza,Pizza & Pasta,1,340,120,0,CUST0214,Amit,,17.0,357.0
+BB/26-27/01592,31-10-2026 20:27,Dine-in,UPI,Cheesy Garlic Bread,Snacks,1,160,45,0,,Amit,,8.0,168.0
+BB/26-27/01594,31-10-2026 21:54,Dine-in,UPI,Red Sauce Pasta,Pizza & Pasta,1,240,78,0,CUST0025,Amit,,12.0,252.0
+BB/26-27/01594,31-10-2026 21:54,Dine-in,UPI,Classic Veg Burger,Snacks,1,160,55,0,CUST0025,Amit,,8.0,168.0
+BB/26-27/01594,31-10-2026 21:54,Dine-in,UPI,Virgin Mojito,Tea & Mocktails,1,160,35,0,CUST0025,Amit,,8.0,168.0
+BB/26-27/01594,31-10-2026 21:54,Dine-in,UPI,Masala Chai,Tea & Mocktails,1,60,14,0,CUST0025,Amit,,3.0,63.0
