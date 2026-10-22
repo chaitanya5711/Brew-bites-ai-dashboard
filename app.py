@@ -17,7 +17,6 @@ import cafe_analytics as A
 
 # ================================================================ settings
 CAFE = "Brew & Bytes Café"
-CITY = "Ichalkaranji"
 TAGLINE = "Every cappuccino and every slice of pizza tells a story. This dashboard reads it — sales, menu, customers and what to do next."
 AUTHOR = "Chaitanya Jadhav"
 LINKEDIN = "https://www.linkedin.com/in/chaitanyatj369344259/"
@@ -283,7 +282,7 @@ def section(title, sub=None):
 
 def page_header(page):
     icon, title = page.split(" ", 1)
-    st.markdown(f"<div class='page-head fadein'><div class='label'>{icon} {CAFE} · {CITY}</div><h2>{title}</h2>"
+    st.markdown(f"<div class='page-head fadein'><div class='label'>{icon} {CAFE}</div><h2>{title}</h2>"
                 f"<p>{PAGES[page]} · {start:%d %b %Y} – {end:%d %b %Y}</p></div>", unsafe_allow_html=True)
 
 
@@ -301,7 +300,7 @@ if "page" not in st.session_state:
 
 with st.sidebar:
     st.markdown(f"<p class='brand'><span class='bn'>{CAFE}</span></p>", unsafe_allow_html=True)
-    st.markdown(f"<p class='brand-sub'>Sales analytics · {CITY}</p>", unsafe_allow_html=True)
+    st.markdown("<p class='brand-sub'>AI sales analytics</p>", unsafe_allow_html=True)
     for p in PAGES:
         if p == "📥 Add New Data":
             st.markdown("<div style='height:8px'></div>", unsafe_allow_html=True)
@@ -408,9 +407,9 @@ def page_home():
     with left:
         st.markdown(f"""<div class='hero fadein'>
 <div class='hero-word'>{CAFE}</div>
-<p class='hero-meaning'>A neighbourhood café in {CITY} · AI sales analytics</p>
+<p class='hero-meaning'>A modern café · AI sales analytics</p>
 <p class='lede'>{TAGLINE}</p>
-<span class='open-now'>Analytics live</span><span class='meta'>📍 {CITY}</span>
+<span class='open-now'>Analytics live</span>
 <span class='meta'>{dmin:%b} – {dmax:%b %Y}</span><span class='meta'>Project by {AUTHOR}</span>
 </div>""", unsafe_allow_html=True)
     with right:
@@ -813,7 +812,7 @@ def page_chat():
     question = preset or st.chat_input("Ask about your café's data…")
 
     def ask_gemini(q):
-        system = (f"You are a friendly, practical business analyst for {CAFE}, a small neighbourhood café in {CITY}, Maharashtra. "
+        system = (f"You are a friendly, practical business analyst for {CAFE}, a small modern café. "
                   "Answer using ONLY the data summary. Use ₹ amounts and specific numbers, give clear actions, "
                   "keep answers under 160 words with short bullets, and reply in the user's language "
                   f"(English, Hindi or Marathi). If the data can't answer, say so.\n\nDATA SUMMARY:\n{A.data_context(df)}")
@@ -1069,6 +1068,6 @@ if page != "🏠 Home":
 ROUTES[page]()
 
 st.markdown(f"<div class='footer'><div class='fb'>{CAFE}</div>"
-            f"<div style='margin-top:6px'>AI sales analytics for a café in {CITY} · Designed & developed by "
+            f"<div style='margin-top:6px'>AI sales analytics for a modern café · Designed & developed by "
             f"<b>{AUTHOR}</b> · <a href='{LINKEDIN}' target='_blank'>LinkedIn</a> · "
             f"<a href='{GITHUB}' target='_blank'>GitHub</a> · © 2026</div></div>", unsafe_allow_html=True)
