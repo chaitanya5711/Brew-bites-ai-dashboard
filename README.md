@@ -1,6 +1,6 @@
 # Brew & Bytes Café — AI-Powered Sales Analytics Dashboard
 
-An end-to-end analytics project for a neighbourhood café in Ichalkaranji: **raw billing data → cleaning → analysis →
+An end-to-end analytics project for a neighbourhood café: **raw billing data → cleaning → analysis →
 machine learning → business recommendations**, delivered as an interactive Streamlit dashboard with an AI chatbot.
 
 > Sample case study built on **simulated** sales data (Jul–Oct 2026) to demonstrate what the dashboard can do for
