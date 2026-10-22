@@ -209,22 +209,6 @@ section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"]{backgrou
 
 
 # ================================================================ logo
-def logo_mark(size=40, cup="#2c4a3a", accent="#a87a22", bars="#eef1ec"):
-    """Brew & Bytes mark: a coffee cup holding rising data bars; the steam rises as a growth line."""
-    return (f'<svg width="{size}" height="{size}" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" '
-            f'role="img" aria-label="Brew &amp; Bytes Café logo">'
-            f'<path d="M12 26 h34 v13 a13 13 0 0 1 -13 13 h-8 a13 13 0 0 1 -13 -13 z" fill="{cup}"/>'
-            f'<path d="M46 30 h3.5 a6.5 6.5 0 0 1 0 13 h-4" fill="none" stroke="{cup}" stroke-width="4" '
-            f'stroke-linecap="round"/>'
-            f'<rect x="19" y="38" width="5" height="7" rx="1.5" fill="{bars}"/>'
-            f'<rect x="26.5" y="34" width="5" height="11" rx="1.5" fill="{bars}"/>'
-            f'<rect x="34" y="30" width="5" height="15" rx="1.5" fill="{bars}"/>'
-            f'<path d="M16 20 C 20 16, 23 17, 27 15 S 33 15, 36 11 S 41 7, 45 6" fill="none" stroke="{accent}" '
-            f'stroke-width="3" stroke-linecap="round"/>'
-            f'<circle cx="45.5" cy="6" r="3" fill="{accent}"/>'
-            f'<rect x="10" y="55" width="40" height="3" rx="1.5" fill="{cup}" opacity=".25"/></svg>')
-
-
 # ================================================================ helpers
 # ---------- saved data (the dashboard always reads the master file) ----------
 APP_DIR = Path(__file__).resolve().parent
@@ -316,8 +300,7 @@ if "page" not in st.session_state:
     st.session_state.page = "🏠 Home"
 
 with st.sidebar:
-    st.markdown(f"<div class='brand-row'>{logo_mark(44, cup='#eef1ec', accent='#d3a446', bars='#2c4a3a')}"
-                f"<p class='brand'><span class='bn'>{CAFE}</span></p></div>", unsafe_allow_html=True)
+    st.markdown(f"<p class='brand'><span class='bn'>{CAFE}</span></p>", unsafe_allow_html=True)
     st.markdown(f"<p class='brand-sub'>Sales analytics · {CITY}</p>", unsafe_allow_html=True)
     for p in PAGES:
         if p == "📥 Add New Data":
@@ -424,7 +407,6 @@ def page_home():
     left, right = st.columns([1.5, 1], gap="large", vertical_alignment="center")
     with left:
         st.markdown(f"""<div class='hero fadein'>
-<div class='hero-logo'>{logo_mark(72)}</div>
 <div class='hero-word'>{CAFE}</div>
 <p class='hero-meaning'>A neighbourhood café in {CITY} · AI sales analytics</p>
 <p class='lede'>{TAGLINE}</p>
@@ -1086,7 +1068,7 @@ if page != "🏠 Home":
     page_header(page)
 ROUTES[page]()
 
-st.markdown(f"<div class='footer'><div class='fb'><span class='fb-logo'>{logo_mark(30, cup='#eef1ec', accent='#d3a446', bars='#18241e')}</span>{CAFE}</div>"
+st.markdown(f"<div class='footer'><div class='fb'>{CAFE}</div>"
             f"<div style='margin-top:6px'>AI sales analytics for a café in {CITY} · Designed & developed by "
             f"<b>{AUTHOR}</b> · <a href='{LINKEDIN}' target='_blank'>LinkedIn</a> · "
             f"<a href='{GITHUB}' target='_blank'>GitHub</a> · © 2026</div></div>", unsafe_allow_html=True)

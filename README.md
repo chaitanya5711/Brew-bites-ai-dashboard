@@ -1,5 +1,3 @@
-<img src="logo.svg" width="72" alt="Brew & Bytes Café logo">
-
 # Brew & Bytes Café — AI-Powered Sales Analytics Dashboard
 
 An end-to-end analytics project for a neighbourhood café in Ichalkaranji: **raw billing data → cleaning → analysis →
