@@ -463,6 +463,6 @@ def merge_sales(master, new):
 def template_csv():
     return ("invoice_no,order_datetime,order_type,payment_method,item,category,quantity,unit_price,unit_cost,"
             "discount_pct,customer_id,cashier,customer_rating\n"
-            "BB/26-27/02001,01-10-2026 08:15,Dine-in,UPI,Masala Chai,Beverages,2,40,10,0,CUST0012,Rohit,\n"
-            "BB/26-27/02001,01-10-2026 08:15,Dine-in,UPI,Poha,Breakfast,1,60,15,0,CUST0012,Rohit,\n"
-            "BB/26-27/02002,01-10-2026 13:40,Swiggy,Online (App),Veg Burger,Fast Food,1,130,45,5,,Rohit,4\n")
+            "BB/26-27/02001,01-11-2026 10:15,Dine-in,UPI,Cappuccino,Coffee,2,160,42,0,CUST0012,Rohit,\n"
+            "BB/26-27/02001,01-11-2026 10:15,Dine-in,UPI,Veg Grilled Sandwich,Sandwiches & Wraps,1,150,50,0,CUST0012,Rohit,\n"
+            "BB/26-27/02002,01-11-2026 19:40,Swiggy,Online (App),Margherita Pizza,Pizza & Pasta,1,280,95,5,,Sneha,4\n")

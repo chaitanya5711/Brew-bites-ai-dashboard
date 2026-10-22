@@ -18,7 +18,7 @@ import cafe_analytics as A
 # ================================================================ settings
 CAFE = "Brew & Bytes Café"
 CITY = "Ichalkaranji"
-TAGLINE = "Every cutting chai and vada pav tells a story. This dashboard reads it — sales, menu, customers and what to do next."
+TAGLINE = "Every cappuccino and every slice of pizza tells a story. This dashboard reads it — sales, menu, customers and what to do next."
 AUTHOR = "Chaitanya Jadhav"
 LINKEDIN = "https://www.linkedin.com/in/chaitanyatj369344259/"
 GITHUB = "https://github.com/chaitanya5711"
@@ -329,9 +329,9 @@ with st.sidebar:
         otypes = st.multiselect("Order type", all_ot, all_ot)
         cats = st.multiselect("Category", all_cat, all_cat)
         pays = st.multiselect("Payment method", all_pay, all_pay)
-        hours = st.slider("Hours of day", 7, 22, (7, 22))
+        hours = st.slider("Hours of day", 9, 22, (9, 22))
     with st.expander("⚙️ Settings"):
-        target = st.number_input("Monthly revenue target (₹)", 10000, 1000000, 60000, step=5000)
+        target = st.number_input("Monthly revenue target (₹)", 10000, 1000000, 120000, step=5000)
         api_key = st.text_input("Gemini API key", type="password", value=os.getenv("GEMINI_API_KEY", ""),
                                 help="Free key at aistudio.google.com. Without it, the bot answers basic questions.")
         model_name = st.text_input("Gemini model", "gemini-2.5-flash")
@@ -768,7 +768,7 @@ def page_tools():
         item = c1.selectbox("Item", sorted(df["item"].unique()))
         change = c2.slider("Price change (%)", -30, 30, 10)
         elast = c3.slider("Price sensitivity", -3.0, 0.0, -1.0, 0.1,
-                          help="-1: a 10% price rise cuts units by 10%. Chai/snacks ≈ -1.5, specialty ≈ -0.5")
+                          help="-1: a 10% price rise cuts units by 10%. Everyday coffee/snacks ≈ -1.5, specialty items ≈ -0.5")
         before, after = A.price_simulation(df, item, change, elast)
 
         def pc(a, b):
@@ -891,7 +891,7 @@ profit of <b>{rupee(k['profit'])}</b> before rent and salaries.</div>""", unsafe
 |---|---|
 | 6 duplicate (double-billed) rows | Removed |
 | 9 blank payment methods | Filled from order type, else *Unknown* |
-| 7 messy item names | Standardised (`vada pav ` → `Vada Pav`) |
+| 7 messy item names | Standardised (`cold coffee ` → `Cold Coffee`) |
 | 3 impossible quantities | Treated as typos, set to 1 |
 | 4 refund rows | Separated from sales |
 | Text dates | Converted; added hour, weekday, month |
@@ -1042,7 +1042,7 @@ def page_data():
 | `invoice_no` | BB/26-27/02001 | Bill number (same for all items on one bill) |
 | `order_datetime` | 01-10-2026 08:15 | Date and time of the bill (DD-MM-YYYY) |
 | `order_type` | Dine-in / Takeaway / Swiggy / Zomato | How the order came |
-| `item` | Masala Chai | Item name |
+| `item` | Cappuccino | Item name |
 | `quantity` | 2 | Units of that item |
 | `unit_price` | 40 | Menu price per unit (₹, before GST) |
 
