@@ -1,4 +1,4 @@
-"""Adi's Café — AI-Powered Sales Analytics Dashboard
+"""Brew & Bytes Café — AI-Powered Sales Analytics Dashboard
 Project by Chaitanya Jadhav
 Run:  streamlit run app.py
 """
@@ -16,8 +16,8 @@ import streamlit as st
 import cafe_analytics as A
 
 # ================================================================ settings
-CAFE = "Adi's Café"
-CITY = "Kolhapur"
+CAFE = "Brew & Bytes Café"
+CITY = "Ichalkaranji"
 TAGLINE = "Every cutting chai and vada pav tells a story. This dashboard reads it — sales, menu, customers and what to do next."
 AUTHOR = "Chaitanya Jadhav"
 LINKEDIN = "https://www.linkedin.com/in/chaitanyatj369344259/"
@@ -150,6 +150,9 @@ section[data-testid="stSidebar"] [data-baseweb="tag"] *{color:var(--ink)}
 section[data-testid="stSidebar"] a{color:var(--brass-soft)!important}
 section[data-testid="stSidebar"] hr{border-color:rgba(255,255,255,.15)}
 .brand{margin:0;line-height:1.1}
+.brand-row{display:flex;align-items:center;gap:10px;margin-bottom:2px}
+.hero-logo{margin-bottom:6px}.hero-logo svg{display:block}
+.fb-logo{display:inline-block;vertical-align:-6px;margin-right:10px}
 .brand .bm{font-family:var(--deva);font-size:1.55rem;color:#d3a446!important;margin-right:8px}
 .brand .bn{font-family:var(--display);font-size:1.35rem;color:#f4f6f1!important}
 .brand-sub{font-size:.85rem;color:#b9c7b0!important;margin:2px 0 6px}
@@ -203,6 +206,23 @@ section[data-testid="stSidebar"] [data-testid="stExpander"] details{background:r
   border-color:rgba(255,255,255,.15)}
 section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"]{background:rgba(255,255,255,.06)!important}
 </style>""", unsafe_allow_html=True)
+
+
+# ================================================================ logo
+def logo_mark(size=40, cup="#2c4a3a", accent="#a87a22", bars="#eef1ec"):
+    """Brew & Bytes mark: a coffee cup holding rising data bars; the steam rises as a growth line."""
+    return (f'<svg width="{size}" height="{size}" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" '
+            f'role="img" aria-label="Brew &amp; Bytes Café logo">'
+            f'<path d="M12 26 h34 v13 a13 13 0 0 1 -13 13 h-8 a13 13 0 0 1 -13 -13 z" fill="{cup}"/>'
+            f'<path d="M46 30 h3.5 a6.5 6.5 0 0 1 0 13 h-4" fill="none" stroke="{cup}" stroke-width="4" '
+            f'stroke-linecap="round"/>'
+            f'<rect x="19" y="38" width="5" height="7" rx="1.5" fill="{bars}"/>'
+            f'<rect x="26.5" y="34" width="5" height="11" rx="1.5" fill="{bars}"/>'
+            f'<rect x="34" y="30" width="5" height="15" rx="1.5" fill="{bars}"/>'
+            f'<path d="M16 20 C 20 16, 23 17, 27 15 S 33 15, 36 11 S 41 7, 45 6" fill="none" stroke="{accent}" '
+            f'stroke-width="3" stroke-linecap="round"/>'
+            f'<circle cx="45.5" cy="6" r="3" fill="{accent}"/>'
+            f'<rect x="10" y="55" width="40" height="3" rx="1.5" fill="{cup}" opacity=".25"/></svg>')
 
 
 # ================================================================ helpers
@@ -296,7 +316,8 @@ if "page" not in st.session_state:
     st.session_state.page = "🏠 Home"
 
 with st.sidebar:
-    st.markdown(f"<p class='brand'><span class='bn'>{CAFE}</span></p>", unsafe_allow_html=True)
+    st.markdown(f"<div class='brand-row'>{logo_mark(44, cup='#eef1ec', accent='#d3a446', bars='#2c4a3a')}"
+                f"<p class='brand'><span class='bn'>{CAFE}</span></p></div>", unsafe_allow_html=True)
     st.markdown(f"<p class='brand-sub'>Sales analytics · {CITY}</p>", unsafe_allow_html=True)
     for p in PAGES:
         if p == "📥 Add New Data":
@@ -403,8 +424,9 @@ def page_home():
     left, right = st.columns([1.5, 1], gap="large", vertical_alignment="center")
     with left:
         st.markdown(f"""<div class='hero fadein'>
+<div class='hero-logo'>{logo_mark(72)}</div>
 <div class='hero-word'>{CAFE}</div>
-<p class='hero-meaning'>A neighbourhood café in {CITY}</p>
+<p class='hero-meaning'>A neighbourhood café in {CITY} · AI sales analytics</p>
 <p class='lede'>{TAGLINE}</p>
 <span class='open-now'>Analytics live</span><span class='meta'>📍 {CITY}</span>
 <span class='meta'>{dmin:%b} – {dmax:%b %Y}</span><span class='meta'>Project by {AUTHOR}</span>
@@ -809,7 +831,7 @@ def page_chat():
     question = preset or st.chat_input("Ask about your café's data…")
 
     def ask_gemini(q):
-        system = (f"You are a friendly, practical business analyst for {CAFE}, a small café in {CITY}. "
+        system = (f"You are a friendly, practical business analyst for {CAFE}, a small neighbourhood café in {CITY}, Maharashtra. "
                   "Answer using ONLY the data summary. Use ₹ amounts and specific numbers, give clear actions, "
                   "keep answers under 160 words with short bullets, and reply in the user's language "
                   f"(English, Hindi or Marathi). If the data can't answer, say so.\n\nDATA SUMMARY:\n{A.data_context(df)}")
@@ -838,7 +860,7 @@ def page_chat():
     if len(st.session_state.chat) > 1:
         c1, c2 = st.columns(2)
         c1.download_button("⬇️ Download chat", "\n\n".join(f"{r.upper()}: {m}" for r, m in st.session_state.chat),
-                           "adis_cafe_chat.txt", use_container_width=True)
+                           "brew_bytes_chat.txt", use_container_width=True)
         if c2.button("🗑️ Clear chat", use_container_width=True):
             del st.session_state["chat"]
             st.rerun()
@@ -866,8 +888,8 @@ profit of <b>{rupee(k['profit'])}</b> before rent and salaries.</div>""", unsafe
                   f"Profit: {rupee(k['profit'])} | Bills: {k['bills']} | Avg bill: {rupee(k['avg_bill'])}\n\n"
                   "KEY FINDINGS\n" + "\n".join("- " + s.replace("**", "") for s in insights))
         c1, c2 = st.columns(2)
-        c1.download_button("⬇️ Download report (TXT)", report, "adis_cafe_report.txt", use_container_width=True)
-        c2.download_button("⬇️ Download data (CSV)", df.to_csv(index=False), "adis_cafe_data.csv",
+        c1.download_button("⬇️ Download report (TXT)", report, "brew_bytes_report.txt", use_container_width=True)
+        c2.download_button("⬇️ Download data (CSV)", df.to_csv(index=False), "brew_bytes_data.csv",
                            use_container_width=True)
     with t2:
         st.markdown(f"""
@@ -1024,7 +1046,7 @@ def page_data():
             st.cache_data.clear()
             st.session_state.flash = "Reset to the original data."
             st.rerun()
-        c3.download_button("⬇️ Download all saved data", MASTER.read_bytes(), "adis_cafe_all_sales.csv",
+        c3.download_button("⬇️ Download all saved data", MASTER.read_bytes(), "brew_bytes_all_sales.csv",
                            use_container_width=True)
         st.caption(f"Data is saved in the app's data folder; a backup is kept before every change "
                    f"({len(backups)} backup(s) now).")
@@ -1035,7 +1057,7 @@ def page_data():
 
 | Column | Example | Meaning |
 |---|---|---|
-| `invoice_no` | AC/26-27/02001 | Bill number (same for all items on one bill) |
+| `invoice_no` | BB/26-27/02001 | Bill number (same for all items on one bill) |
 | `order_datetime` | 01-10-2026 08:15 | Date and time of the bill (DD-MM-YYYY) |
 | `order_type` | Dine-in / Takeaway / Swiggy / Zomato | How the order came |
 | `item` | Masala Chai | Item name |
@@ -1049,7 +1071,7 @@ def page_data():
 standardised · unreadable dates removed · refunds separated · impossible quantities fixed · blank payments filled ·
 costs looked up from the menu · GST, totals and profit recalculated.
 """)
-        st.download_button("⬇️ Download blank template (CSV)", A.template_csv(), "adis_cafe_upload_template.csv")
+        st.download_button("⬇️ Download blank template (CSV)", A.template_csv(), "brew_bytes_upload_template.csv")
 
 
 # ================================================================ router
@@ -1064,7 +1086,7 @@ if page != "🏠 Home":
     page_header(page)
 ROUTES[page]()
 
-st.markdown(f"<div class='footer'><div class='fb'>{CAFE}</div>"
+st.markdown(f"<div class='footer'><div class='fb'><span class='fb-logo'>{logo_mark(30, cup='#eef1ec', accent='#d3a446', bars='#18241e')}</span>{CAFE}</div>"
             f"<div style='margin-top:6px'>AI sales analytics for a café in {CITY} · Designed & developed by "
             f"<b>{AUTHOR}</b> · <a href='{LINKEDIN}' target='_blank'>LinkedIn</a> · "
             f"<a href='{GITHUB}' target='_blank'>GitHub</a> · © 2026</div></div>", unsafe_allow_html=True)

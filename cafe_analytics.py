@@ -1,4 +1,4 @@
-"""Analytics + AI logic for the Adi's Café dashboard (no Streamlit code here)."""
+"""Analytics + AI logic for the Brew & Bytes Café dashboard (no Streamlit code here)."""
 from itertools import combinations
 
 import numpy as np
@@ -463,6 +463,6 @@ def merge_sales(master, new):
 def template_csv():
     return ("invoice_no,order_datetime,order_type,payment_method,item,category,quantity,unit_price,unit_cost,"
             "discount_pct,customer_id,cashier,customer_rating\n"
-            "AC/26-27/02001,01-10-2026 08:15,Dine-in,UPI,Masala Chai,Beverages,2,40,10,0,CUST0012,Rohit,\n"
-            "AC/26-27/02001,01-10-2026 08:15,Dine-in,UPI,Poha,Breakfast,1,60,15,0,CUST0012,Rohit,\n"
-            "AC/26-27/02002,01-10-2026 13:40,Swiggy,Online (App),Veg Burger,Fast Food,1,130,45,5,,Rohit,4\n")
+            "BB/26-27/02001,01-10-2026 08:15,Dine-in,UPI,Masala Chai,Beverages,2,40,10,0,CUST0012,Rohit,\n"
+            "BB/26-27/02001,01-10-2026 08:15,Dine-in,UPI,Poha,Breakfast,1,60,15,0,CUST0012,Rohit,\n"
+            "BB/26-27/02002,01-10-2026 13:40,Swiggy,Online (App),Veg Burger,Fast Food,1,130,45,5,,Rohit,4\n")
