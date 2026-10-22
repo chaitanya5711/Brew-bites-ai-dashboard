@@ -321,6 +321,14 @@ def _server_api_key():
     return os.getenv("GEMINI_API_KEY", "")
 
 
+def _clean_key(k):
+    """Return the key if it looks like a real API key (one word, plain characters), else ''."""
+    k = (k or "").strip().strip('"').strip("'").strip()
+    if not k or not k.isascii() or any(c.isspace() for c in k) or len(k) < 20:
+        return ""
+    return k
+
+
 # ================================================================ sidebar
 if "page" not in st.session_state:
     st.session_state.page = "🏠 Home"
@@ -361,7 +369,9 @@ with st.sidebar:
         # The owner's key stays on the server (Streamlit Secrets / env var) and is never sent to the browser.
         user_key = st.text_input("Gemini API key (optional)", type="password", value="",
                                  help="Only needed if the app owner hasn't set one. Free key at aistudio.google.com.")
-        api_key = user_key or _server_api_key()
+        api_key = _clean_key(user_key) or _clean_key(_server_api_key())
+        if user_key and not _clean_key(user_key):
+            st.error("That doesn't look like a Gemini API key. Paste only the key itself (it starts with 'AIza').")
         model_name = st.text_input("Gemini model", "gemini-2.5-flash")
     st.markdown("---")
     st.markdown(f"<small>👨‍💻 Built by <b>{AUTHOR}</b><br>"
